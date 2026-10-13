@@ -1,0 +1,147 @@
+// RE-style compact guide propagation.
+// The render-thread pass writes the Groom guide DeformerBuffer UAV. GroomManager
+// subsequently copies that buffer into the current guide positions and performs
+// the native guide-to-dense interpolation.
+#pragma once
+#include "/Engine/Private/HairStrands/HairStrandsVertexFactoryCommon.ush"
+
+ByteAddressBuffer PointRestPositions;
+ByteAddressBuffer PointToCurveBuffer;
+ByteAddressBuffer CurveBuffer;
+StructuredBuffer<float4> CurrentControlPoints;
+StructuredBuffer<float4> RestControlPoints;
+StructuredBuffer<float4> DeformedPositionOffset;
+RWByteAddressBuffer PointDeformedPositions;
+
+uint PointCount;
+uint RegisteredIndex;
+float3 RestPositionOffset;
+float CurrentTime;
+
+float3 EvalCatmull(float3 P0, float3 P1, float3 P2, float3 P3, float T)
+{
+    const float T2 = T * T;
+    const float T3 = T2 * T;
+    return 0.5 * ((2.0 * P1) + (-P0 + P2) * T
+        + (2.0 * P0 - 5.0 * P1 + 4.0 * P2 - P3) * T2
+        + (-P0 + 3.0 * P1 - 3.0 * P2 + P3) * T3);
+}
+
+float3 EvalCompact(StructuredBuffer<float4> Controls, float U)
+{
+    // Five compact knots form four overlapping Catmull-Rom segments. End
+    // controls are duplicated at the boundaries so u=0/1 remains exactly on
+    // the scalp/tip controls while every interior sample uses four points.
+    const float SegmentCoord = saturate(U) * 4.0;
+    const uint Segment = min((uint)floor(SegmentCoord), 3u);
+    const float T = (SegmentCoord - (float)Segment);
+    const uint P0 = (Segment > 0u) ? Segment - 1u : 0u;
+    const uint P1 = Segment;
+    const uint P2 = Segment + 1u;
+    const uint P3 = min(Segment + 2u, 4u);
+    return EvalCatmull(
+        Controls[P0].xyz,
+        Controls[P1].xyz,
+        Controls[P2].xyz,
+        Controls[P3].xyz,
+        T);
+}
+
+float3 RotateBetweenNormals(float3 V, float3 From, float3 To)
+{
+    const float3 A = normalize(From);
+    const float3 B = normalize(To);
+    const float CosAngle = clamp(dot(A, B), -1.0, 1.0);
+    float3 Axis = cross(A, B);
+    const float SinAngle = length(Axis);
+    if (SinAngle > 1.0e-4)
+    {
+        Axis /= SinAngle;
+        return V * CosAngle + cross(Axis, V) * SinAngle
+            + Axis * dot(Axis, V) * (1.0 - CosAngle);
+    }
+    if (CosAngle > 0.0)
+        return V;
+    Axis = abs(A.x) < 0.8 ? normalize(cross(A, float3(1.0, 0.0, 0.0)))
+                          : normalize(cross(A, float3(0.0, 1.0, 0.0)));
+    return -V + Axis * dot(Axis, V) * 2.0;
+}
+
+float3 EvalTangent(StructuredBuffer<float4> Controls, float U)
+{
+    const float Epsilon = 0.025;
+    const float3 A = EvalCompact(Controls, saturate(U - Epsilon));
+    const float3 B = EvalCompact(Controls, saturate(U + Epsilon));
+    const float3 Delta = B - A;
+    return length(Delta) > 1.0e-4 ? normalize(Delta) : float3(0.0, 0.0, 1.0);
+}
+
+[numthreads(64, 1, 1)]
+void MainCS(uint3 DispatchThreadId : SV_DispatchThreadID)
+{
+    const uint PointIndex = DispatchThreadId.x;
+    if (PointIndex >= PointCount)
+    {
+        return;
+    }
+
+    const uint CurveIndex = ReadHairPointToCurveIndex(PointToCurveBuffer, PointIndex);
+    const FHairCurve Curve = ReadHairCurve(CurveBuffer, CurveIndex);
+    const uint LocalPointIndex = (PointIndex >= Curve.PointIndex)
+        ? PointIndex - Curve.PointIndex : 0u;
+    const float Denominator = max((float)Curve.PointCount - 1.0, 1.0);
+    const float U = saturate((float)LocalPointIndex / Denominator);
+
+    // Build a per-guide root/tangent frame. The compact chain supplies the
+    // bend, while each imported guide keeps its own scalp root and authored
+    // curl. This avoids moving all strands as one rigid sheet.
+    const float3 RestWorldPosition = ReadHairControlPointPosition(
+        PointRestPositions, PointIndex, RestPositionOffset);
+    const float3 RootRestPosition = ReadHairControlPointPosition(
+        PointRestPositions, Curve.PointIndex, RestPositionOffset);
+    const float3 RestLocal = RestWorldPosition - RootRestPosition;
+    const float3 CompactRestRoot = EvalCompact(RestControlPoints, 0.0);
+    const float3 CompactCurrentRoot = EvalCompact(CurrentControlPoints, 0.0);
+    const float3 CurrentCurveRoot = RootRestPosition + (CompactCurrentRoot - CompactRestRoot);
+    const uint PrevPointIndex = Curve.PointIndex + ((LocalPointIndex > 0u) ? LocalPointIndex - 1u : 0u);
+    const uint NextPointIndex = Curve.PointIndex + min(LocalPointIndex + 1u,
+        (Curve.PointCount > 0u) ? Curve.PointCount - 1u : 0u);
+    const float3 AuthoredRestTangent = normalize(
+        ReadHairControlPointPosition(PointRestPositions, NextPointIndex, RestPositionOffset) -
+        ReadHairControlPointPosition(PointRestPositions, PrevPointIndex, RestPositionOffset));
+    const float3 CompactRestTangent = EvalTangent(RestControlPoints, U);
+    const float3 CompactCurrentTangent = EvalTangent(CurrentControlPoints, U);
+    const float3 RotatedLocal = RotateBetweenNormals(
+        RestLocal, CompactRestTangent, CompactCurrentTangent);
+    const float3 CurrentTangent = RotateBetweenNormals(
+        AuthoredRestTangent, CompactRestTangent, CompactCurrentTangent);
+    // Keep phase spatially continuous over neighboring follicles. A small
+    // hash term breaks exact ties without turning the scalp into white-noise
+    // flutter; the native guide clusters use the same low-frequency behavior.
+    const float SpatialPhase = dot(RootRestPosition, float3(0.01731, 0.03173, 0.01117));
+    const float CurveHash = frac(sin((float)CurveIndex * 12.9898 + SpatialPhase * 78.233) * 43758.5453);
+    const float RootPhase = SpatialPhase + (CurveHash - 0.5) * 0.36;
+    const float CurveRandom = frac(sin(SpatialPhase * 12.9898 + (float)CurveIndex * 0.37) * 43758.5453);
+    const float BendWeight = 0.76 + 0.24 * CurveRandom;
+    const float LengthJitter = 0.97 + 0.06 * frac(sin(RootPhase * 78.233) * 24634.6345);
+    const float TipWeight = saturate(U * 1.12);
+    float3 Position = CurrentCurveRoot +
+        lerp(RestLocal, RotatedLocal, BendWeight) * lerp(1.0, LengthJitter, TipWeight);
+
+    // Add small, low-frequency per-follicle air motion.  The phase comes from
+    // the actual root position, so neighboring guides no longer flap in lock
+    // step while the quadratic envelope keeps the scalp stable.
+    const float3 RefAxis = abs(CurrentTangent.z) < 0.85
+        ? float3(0.0, 0.0, 1.0) : float3(0.0, 1.0, 0.0);
+    const float3 FlutterAxis = normalize(cross(CurrentTangent, RefAxis));
+    const float3 FlutterSide = normalize(cross(CurrentTangent, FlutterAxis));
+    const float FlutterEnvelope = TipWeight * TipWeight;
+    const float FlutterA = sin(CurrentTime * 1.17 + RootPhase + U * 5.70);
+    const float FlutterB = cos(CurrentTime * 0.83 + RootPhase * 0.71 + U * 4.19);
+    const float FlutterScale = (0.12 + 0.30 * CurveRandom) * FlutterEnvelope;
+    Position += (FlutterAxis * FlutterA + FlutterSide * FlutterB * 0.45) * FlutterScale;
+
+    const FPackedHairPosition Packed = ReadPackedHairPosition(PointRestPositions, PointIndex);
+    const float3 Offset = ReadSimPositionOffset(DeformedPositionOffset, RegisteredIndex);
+    WritePackedHairControlPointPosition(PointDeformedPositions, PointIndex, Packed, Position, Offset);
+}

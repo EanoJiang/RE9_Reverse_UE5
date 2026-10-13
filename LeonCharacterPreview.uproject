@@ -1,0 +1,49 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.8",
+  "Category": "Character Preview",
+  "Description": "Resident Evil Requiem Leon character preview with Groom-ready hair pipeline",
+  "Modules": [],
+  "Plugins": [
+    {
+      "Name": "LeonPreviewTools",
+      "Enabled": true
+    },
+    {
+      "Name": "HairStrands",
+      "Enabled": true
+    },
+    {
+      "Name": "AlembicHairImporter",
+      "Enabled": true
+    },
+    {
+      "Name": "ControlRig",
+      "Enabled": true
+    },
+    {
+      "Name": "EditorScriptingUtilities",
+      "Enabled": true
+    },
+    {
+      "Name": "PythonScriptPlugin",
+      "Enabled": true
+    },
+    {
+      "Name": "DeformerGraph",
+      "Enabled": true
+    },
+    {
+      "Name": "AlembicImporter",
+      "Enabled": true
+    },
+    {
+      "Name": "Interchange",
+      "Enabled": false
+    },
+    {
+      "Name": "InterchangeEditor",
+      "Enabled": false
+    }
+  ]
+}

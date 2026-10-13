@@ -1,0 +1,2621 @@
+{
+  "schema_version": 1,
+  "success": true,
+  "asset_writes": false,
+  "map_saved": false,
+  "editor_process_id": 54660,
+  "root": "/Game/Leon/Preview/LeonVideoPreview",
+  "checks": {
+    "manifest_root": true,
+    "manifest_closure_nonempty": true,
+    "manifest_count": true,
+    "runtime_roots_in_closure": true,
+    "only_video_preview_map": true,
+    "only_three_animation_sequences": true,
+    "all_closure_files_exist": true,
+    "all_closure_assets_load": true,
+    "deformer_root_loads": true,
+    "three_animation_roots_load": true,
+    "target_map_loads": true,
+    "exactly_one_leon_hero": true,
+    "exactly_one_native_groom_actor": true,
+    "hero_mesh_exists": true,
+    "hero_preview_mesh": true,
+    "hero_materials_exist": true,
+    "stage_material_overrides_exist": true,
+    "native_groom_exists": true,
+    "native_binding_exists": true,
+    "groom_materials_exist": true,
+    "groom_attached_to_hero_mesh": true,
+    "runtime_shader_files_exist": true,
+    "loaded_packages_unchanged": true
+  },
+  "errors": [],
+  "historical_source_metadata": "Excluded from failure conditions; saved packages do not require import SourceFile paths.",
+  "closure_package_count": 243,
+  "disk_maps": [
+    "Leon/Preview/LeonVideoPreview.umap"
+  ],
+  "animation_packages": [
+    "/Game/Leon/Animations/FullRig/ch0100_emote_233d0854/A_ch0100_Emote_0710_Idle_Relax_hair_id710",
+    "/Game/Leon/Animations/FullRig/ch0100_generald_385e2faa/A_ch0100_GeneralD_0000_Idle_caution_id0",
+    "/Game/Leon/Animations/FullRig/ch0100_generald_385e2faa/A_ch0100_GeneralD_2270_walk_Loop_id2270"
+  ],
+  "packages": [
+    {
+      "package": "/Game/Leon/Animations/FullRig/ch0100_emote_233d0854/A_ch0100_Emote_0710_Idle_Relax_hair_id710",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Animations\\FullRig\\ch0100_emote_233d0854\\A_ch0100_Emote_0710_Idle_Relax_hair_id710.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Animations/FullRig/ch0100_emote_233d0854/A_ch0100_Emote_0710_Idle_Relax_hair_id710.A_ch0100_Emote_0710_Idle_Relax_hair_id710",
+      "sha256_before": "66454c70a7c267323f667d9f7c5b631a9a35e76f59aba60bd3b2504452a7157b",
+      "sha256_after": "66454c70a7c267323f667d9f7c5b631a9a35e76f59aba60bd3b2504452a7157b"
+    },
+    {
+      "package": "/Game/Leon/Animations/FullRig/ch0100_generald_385e2faa/A_ch0100_GeneralD_0000_Idle_caution_id0",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Animations\\FullRig\\ch0100_generald_385e2faa\\A_ch0100_GeneralD_0000_Idle_caution_id0.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Animations/FullRig/ch0100_generald_385e2faa/A_ch0100_GeneralD_0000_Idle_caution_id0.A_ch0100_GeneralD_0000_Idle_caution_id0",
+      "sha256_before": "5ef347334144bd98a458826efe84f57d4a0d131662dbdca307b823580cccb9c2",
+      "sha256_after": "5ef347334144bd98a458826efe84f57d4a0d131662dbdca307b823580cccb9c2"
+    },
+    {
+      "package": "/Game/Leon/Animations/FullRig/ch0100_generald_385e2faa/A_ch0100_GeneralD_2270_walk_Loop_id2270",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Animations\\FullRig\\ch0100_generald_385e2faa\\A_ch0100_GeneralD_2270_walk_Loop_id2270.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Animations/FullRig/ch0100_generald_385e2faa/A_ch0100_GeneralD_2270_walk_Loop_id2270.A_ch0100_GeneralD_2270_walk_Loop_id2270",
+      "sha256_before": "c5e3ca351fd0998765c751405f40e5dc34864377e6ab609c3f223d06e8448f3c",
+      "sha256_after": "c5e3ca351fd0998765c751405f40e5dc34864377e6ab609c3f223d06e8448f3c"
+    },
+    {
+      "package": "/Game/Leon/Groom/DF_Leon_REHair",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Groom\\DF_Leon_REHair.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Groom/DF_Leon_REHair.DF_Leon_REHair",
+      "sha256_before": "e05ddebfcfe5e98af05f1e9d18e9cb2e5fd06d0128482289c55d95c0da5b64af",
+      "sha256_after": "e05ddebfcfe5e98af05f1e9d18e9cb2e5fd06d0128482289c55d95c0da5b64af"
+    },
+    {
+      "package": "/Game/Leon/Groom/GB_Leon_Native_Hair",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Groom\\GB_Leon_Native_Hair.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Groom/GB_Leon_Native_Hair.GB_Leon_Native_Hair",
+      "sha256_before": "c522b4be2872f6e0b1c5a7dab9e69c4c2fe617ead63351e0e963135c8fa4d578",
+      "sha256_after": "c522b4be2872f6e0b1c5a7dab9e69c4c2fe617ead63351e0e963135c8fa4d578"
+    },
+    {
+      "package": "/Game/Leon/Groom/Leon_Hair_Native",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Groom\\Leon_Hair_Native.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Groom/Leon_Hair_Native.Leon_Hair_Native",
+      "sha256_before": "7885cf2042b890d978179399abc0011feb27c451909498f6d11da6b72283bfd5",
+      "sha256_after": "7885cf2042b890d978179399abc0011feb27c451909498f6d11da6b72283bfd5"
+    },
+    {
+      "package": "/Game/Leon/Groom/MI_Leon_NativeHair",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Groom\\MI_Leon_NativeHair.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Groom/MI_Leon_NativeHair.MI_Leon_NativeHair",
+      "sha256_before": "e0d70e5581b800b70aadebe22404b72809a4214f1bc4c11b25efe2a5a0a8bce0",
+      "sha256_after": "e0d70e5581b800b70aadebe22404b72809a4214f1bc4c11b25efe2a5a0a8bce0"
+    },
+    {
+      "package": "/Game/Leon/Groom/M_Leon_NativeHair",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Groom\\M_Leon_NativeHair.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Groom/M_Leon_NativeHair.M_Leon_NativeHair",
+      "sha256_before": "b29672e048908f5a04559ab1e36f6641ef779a49d031cb78206f4bafdc363517",
+      "sha256_after": "b29672e048908f5a04559ab1e36f6641ef779a49d031cb78206f4bafdc363517"
+    },
+    {
+      "package": "/Game/Leon/Groom/PA_Leon_NativeGroomHead",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Groom\\PA_Leon_NativeGroomHead.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Groom/PA_Leon_NativeGroomHead.PA_Leon_NativeGroomHead",
+      "sha256_before": "2fceed99f95e21b546c0c0c7d65391e451c58e661911fe3d9dff9ce2f7e895b7",
+      "sha256_after": "2fceed99f95e21b546c0c0c7d65391e451c58e661911fe3d9dff9ce2f7e895b7"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Beard_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Beard_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Beard_Mat.MI_Leon_Beard_Mat",
+      "sha256_before": "8c2896e238853da4e7a11b97ae759ca5ab1bc5a390fbb41b42305ff67640c926",
+      "sha256_after": "8c2896e238853da4e7a11b97ae759ca5ab1bc5a390fbb41b42305ff67640c926"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_ElbowBackle_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_ElbowBackle_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_ElbowBackle_Mat.MI_Leon_ElbowBackle_Mat",
+      "sha256_before": "e1dac27c80c51112dd7d45b8fc4e42257cc4a857dacfb639cfab74f9eb10ee60",
+      "sha256_after": "e1dac27c80c51112dd7d45b8fc4e42257cc4a857dacfb639cfab74f9eb10ee60"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_ElbowBelt_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_ElbowBelt_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_ElbowBelt_Mat.MI_Leon_ElbowBelt_Mat",
+      "sha256_before": "9b83471a39e0e952122daca2990ecce739e71d040964cf4b442da15273b3e547",
+      "sha256_after": "9b83471a39e0e952122daca2990ecce739e71d040964cf4b442da15273b3e547"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_ElbowKevlar_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_ElbowKevlar_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_ElbowKevlar_Mat.MI_Leon_ElbowKevlar_Mat",
+      "sha256_before": "f543431d146e16a2553ab485fbece9645d729f20c47184cdb448e1d6709cf708",
+      "sha256_after": "f543431d146e16a2553ab485fbece9645d729f20c47184cdb448e1d6709cf708"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_ElbowPat_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_ElbowPat_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_ElbowPat_Mat.MI_Leon_ElbowPat_Mat",
+      "sha256_before": "f4e1c96228d5aecf4894a1a37bf762a2b5fcb62482df97277fe93b9e5262db0a",
+      "sha256_after": "f4e1c96228d5aecf4894a1a37bf762a2b5fcb62482df97277fe93b9e5262db0a"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_EyeShell_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_EyeShell_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_EyeShell_Mat.MI_Leon_EyeShell_Mat",
+      "sha256_before": "39ac4be47e7fa50f147cfbb0d5e8bdcc13a08224a32d422ba7e3d736efc40a2c",
+      "sha256_after": "39ac4be47e7fa50f147cfbb0d5e8bdcc13a08224a32d422ba7e3d736efc40a2c"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Eyeball_L_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Eyeball_L_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Eyeball_L_Mat.MI_Leon_Eyeball_L_Mat",
+      "sha256_before": "aaf0632d6e6c66a74028ef94382d639cf445ad418018a51074cf258c80fa03d4",
+      "sha256_after": "aaf0632d6e6c66a74028ef94382d639cf445ad418018a51074cf258c80fa03d4"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Eyeball_R_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Eyeball_R_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Eyeball_R_Mat.MI_Leon_Eyeball_R_Mat",
+      "sha256_before": "22601e183d77d84a2fe0eac90dbe3e90779afeb011d48e075aacbeddd1f6d960",
+      "sha256_after": "22601e183d77d84a2fe0eac90dbe3e90779afeb011d48e075aacbeddd1f6d960"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Eyebrow_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Eyebrow_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Eyebrow_Mat.MI_Leon_Eyebrow_Mat",
+      "sha256_before": "c31c56a35bfc245de9eadfb4b714de9e313cc18e390bb9c83fd306f95a0f3b8f",
+      "sha256_after": "c31c56a35bfc245de9eadfb4b714de9e313cc18e390bb9c83fd306f95a0f3b8f"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Eyelash_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Eyelash_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Eyelash_Mat.MI_Leon_Eyelash_Mat",
+      "sha256_before": "2ac0a8a966edb539864aa54b2db1cd85f115426477a6d62b23b5e088ef870ed0",
+      "sha256_after": "2ac0a8a966edb539864aa54b2db1cd85f115426477a6d62b23b5e088ef870ed0"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Face_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Face_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Face_Mat.MI_Leon_Face_Mat",
+      "sha256_before": "d2a621b2a8492de00d59dd59cfc2f2dcebcf34ed87c63f5cb2421a7b9e6eac6e",
+      "sha256_after": "d2a621b2a8492de00d59dd59cfc2f2dcebcf34ed87c63f5cb2421a7b9e6eac6e"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_GrenadeBody_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_GrenadeBody_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_GrenadeBody_Mat.MI_Leon_GrenadeBody_Mat",
+      "sha256_before": "fcae74e7f103925bba8edca0b13e957aa7db4167a0abf6b33be91f85ce91d72f",
+      "sha256_after": "fcae74e7f103925bba8edca0b13e957aa7db4167a0abf6b33be91f85ce91d72f"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_GrenadeLever_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_GrenadeLever_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_GrenadeLever_Mat.MI_Leon_GrenadeLever_Mat",
+      "sha256_before": "95eec28603f17d6e638ef67dd0fdbee5e195b256fbb0c53ff315f5051f773c47",
+      "sha256_after": "95eec28603f17d6e638ef67dd0fdbee5e195b256fbb0c53ff315f5051f773c47"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_GrenadePlastic_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_GrenadePlastic_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_GrenadePlastic_Mat.MI_Leon_GrenadePlastic_Mat",
+      "sha256_before": "75faad48b402fe959aa518321273b02232ff7323aa9cac84a0159122d2ca9130",
+      "sha256_after": "75faad48b402fe959aa518321273b02232ff7323aa9cac84a0159122d2ca9130"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Hair00_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Hair00_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Hair00_Mat.MI_Leon_Hair00_Mat",
+      "sha256_before": "5b6f47ca60ccd6c3658425e41f0a63e2544e5a705a82b354310f2312c463c915",
+      "sha256_after": "5b6f47ca60ccd6c3658425e41f0a63e2544e5a705a82b354310f2312c463c915"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Hair01_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Hair01_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Hair01_Mat.MI_Leon_Hair01_Mat",
+      "sha256_before": "8ecc244b45e9296c8a37967da58c08d5231bc1e78da05897156847b366ede718",
+      "sha256_after": "8ecc244b45e9296c8a37967da58c08d5231bc1e78da05897156847b366ede718"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Hair02_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Hair02_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Hair02_Mat.MI_Leon_Hair02_Mat",
+      "sha256_before": "cb9a6b847490603d0d289fdc85fe3e4090ddb5bbea1f4891ceb591e1cb97da57",
+      "sha256_after": "cb9a6b847490603d0d289fdc85fe3e4090ddb5bbea1f4891ceb591e1cb97da57"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Light_Glass_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Light_Glass_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Light_Glass_Mat.MI_Leon_Light_Glass_Mat",
+      "sha256_before": "e4cd32a231577df3ea2cac53cfdbab9b50e693525f4fa1859d28b151af77e657",
+      "sha256_after": "e4cd32a231577df3ea2cac53cfdbab9b50e693525f4fa1859d28b151af77e657"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Light_Metal_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Light_Metal_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Light_Metal_Mat.MI_Leon_Light_Metal_Mat",
+      "sha256_before": "be844792992aba0facaadeda6885ecb810b8bb081c1530b03ef9f6cc2b1d05ed",
+      "sha256_after": "be844792992aba0facaadeda6885ecb810b8bb081c1530b03ef9f6cc2b1d05ed"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Light_Plastic_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Light_Plastic_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Light_Plastic_Mat.MI_Leon_Light_Plastic_Mat",
+      "sha256_before": "ffffc9cb98f9c92e4d1212eb4f024a055bc3f686aa3bfa3e9276c588e7a24008",
+      "sha256_after": "ffffc9cb98f9c92e4d1212eb4f024a055bc3f686aa3bfa3e9276c588e7a24008"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Light_Reflector_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Light_Reflector_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Light_Reflector_Mat.MI_Leon_Light_Reflector_Mat",
+      "sha256_before": "86028a959523fea5c61994d51b30df5839792b727779b13541e8e23c892ce0a7",
+      "sha256_after": "86028a959523fea5c61994d51b30df5839792b727779b13541e8e23c892ce0a7"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_PushDaggerKnifeSheath_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_PushDaggerKnifeSheath_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_PushDaggerKnifeSheath_Mat.MI_Leon_PushDaggerKnifeSheath_Mat",
+      "sha256_before": "2cfbdea3f99b6b489d4b793b39fd2c60a1e5cf2f6a73745f94c9b99b3f79f1d6",
+      "sha256_after": "2cfbdea3f99b6b489d4b793b39fd2c60a1e5cf2f6a73745f94c9b99b3f79f1d6"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_PushDaggerKnife_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_PushDaggerKnife_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_PushDaggerKnife_Mat.MI_Leon_PushDaggerKnife_Mat",
+      "sha256_before": "4cf808985a7610f74f9aefaba8fbd3abc04ed7fd3037e2a26c117b46f129df3c",
+      "sha256_after": "4cf808985a7610f74f9aefaba8fbd3abc04ed7fd3037e2a26c117b46f129df3c"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Rivet_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Rivet_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Rivet_Mat.MI_Leon_Rivet_Mat",
+      "sha256_before": "d4c1e7e0cd209a5a62ea9035e49cbc249b8f9622013d4748647c9efc5e947c28",
+      "sha256_after": "d4c1e7e0cd209a5a62ea9035e49cbc249b8f9622013d4748647c9efc5e947c28"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Arm_L_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Arm_L_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Arm_L_Mat.MI_Leon_Set00_Arm_L_Mat",
+      "sha256_before": "dd57678591ae3642ff45158c003cff9cd6c5a998d557ea1ab2e706edf879ab97",
+      "sha256_after": "dd57678591ae3642ff45158c003cff9cd6c5a998d557ea1ab2e706edf879ab97"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Arm_R_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Arm_R_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Arm_R_Mat.MI_Leon_Set00_Arm_R_Mat",
+      "sha256_before": "7325b91981c8500a8d682aaae876e4191cf25f0e7e4fa696a37cf5af8990bf52",
+      "sha256_after": "7325b91981c8500a8d682aaae876e4191cf25f0e7e4fa696a37cf5af8990bf52"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_BH_Carbon_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_BH_Carbon_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_BH_Carbon_Mat.MI_Leon_Set00_BH_Carbon_Mat",
+      "sha256_before": "cc7a4b0a81a3da6dfe40a2707232e8358d12619d73d9d84e59ce7cd6a0e8687e",
+      "sha256_after": "cc7a4b0a81a3da6dfe40a2707232e8358d12619d73d9d84e59ce7cd6a0e8687e"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_BH_Cloth_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_BH_Cloth_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_BH_Cloth_Mat.MI_Leon_Set00_BH_Cloth_Mat",
+      "sha256_before": "949bce0880bdadbf9b84237320590001dcd3ad992aed56dfcc234342168186bd",
+      "sha256_after": "949bce0880bdadbf9b84237320590001dcd3ad992aed56dfcc234342168186bd"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_BH_MagicTape_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_BH_MagicTape_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_BH_MagicTape_Mat.MI_Leon_Set00_BH_MagicTape_Mat",
+      "sha256_before": "e51df0efcc58b2b851aab9131e09ee417b4dcfead3aa2aff01e9d7ae2a9045c7",
+      "sha256_after": "e51df0efcc58b2b851aab9131e09ee417b4dcfead3aa2aff01e9d7ae2a9045c7"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Carbon_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Belt_Carbon_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Carbon_Mat.MI_Leon_Set00_Belt_Carbon_Mat",
+      "sha256_before": "e1431f4c1826fb6c8235d3d520d49127e4c4e9b2a18ab7dbefb9fb4e6161fac9",
+      "sha256_after": "e1431f4c1826fb6c8235d3d520d49127e4c4e9b2a18ab7dbefb9fb4e6161fac9"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Cloth1_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Belt_Cloth1_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Cloth1_Mat.MI_Leon_Set00_Belt_Cloth1_Mat",
+      "sha256_before": "fcb558c34157dc1d031a9d89dc71c0902ee47fac569cf70aa9c60e35d8e5f73a",
+      "sha256_after": "fcb558c34157dc1d031a9d89dc71c0902ee47fac569cf70aa9c60e35d8e5f73a"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Cloth2_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Belt_Cloth2_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Cloth2_Mat.MI_Leon_Set00_Belt_Cloth2_Mat",
+      "sha256_before": "d7bb7c4c9ae3d4091e7d867dab7122414c2bf8954f130e74349bb892d9faf4aa",
+      "sha256_after": "d7bb7c4c9ae3d4091e7d867dab7122414c2bf8954f130e74349bb892d9faf4aa"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Cloth3_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Belt_Cloth3_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Cloth3_Mat.MI_Leon_Set00_Belt_Cloth3_Mat",
+      "sha256_before": "c051ddb3b6f4784279acb499d726faaf3ecbf26a7ab7d596baeea10b9d4b8020",
+      "sha256_after": "c051ddb3b6f4784279acb499d726faaf3ecbf26a7ab7d596baeea10b9d4b8020"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Cloth4_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Belt_Cloth4_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Cloth4_Mat.MI_Leon_Set00_Belt_Cloth4_Mat",
+      "sha256_before": "fe71b3a814fa134ee4fe89e07cfec39f4b4ddf5a2e5a71d1b2a65da044bbe1d6",
+      "sha256_after": "fe71b3a814fa134ee4fe89e07cfec39f4b4ddf5a2e5a71d1b2a65da044bbe1d6"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Metal_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Belt_Metal_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Metal_Mat.MI_Leon_Set00_Belt_Metal_Mat",
+      "sha256_before": "4d9cac38bda846210f1d6cfb0fe74be0db4a004e9ab9b5723bc7e2cda1ad8207",
+      "sha256_after": "4d9cac38bda846210f1d6cfb0fe74be0db4a004e9ab9b5723bc7e2cda1ad8207"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Plastic_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Belt_Plastic_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Plastic_Mat.MI_Leon_Set00_Belt_Plastic_Mat",
+      "sha256_before": "f9b4c965e3a8b9a3735620ccab0dd723d4b74d17e22e7fd2105e82470e83196e",
+      "sha256_after": "f9b4c965e3a8b9a3735620ccab0dd723d4b74d17e22e7fd2105e82470e83196e"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Rubber_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Belt_Rubber_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Rubber_Mat.MI_Leon_Set00_Belt_Rubber_Mat",
+      "sha256_before": "7d84aaad7ca916898dc268f0781f70fc8612d7a472cb2b6bc8139949743259a6",
+      "sha256_after": "7d84aaad7ca916898dc268f0781f70fc8612d7a472cb2b6bc8139949743259a6"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Stitch_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Belt_Stitch_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Stitch_Mat.MI_Leon_Set00_Belt_Stitch_Mat",
+      "sha256_before": "47a270b836142eff141ed142f5776e5a3f7a629a94c98d6ef6104e8f7e800f43",
+      "sha256_after": "47a270b836142eff141ed142f5776e5a3f7a629a94c98d6ef6104e8f7e800f43"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Glove_Cloth_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Glove_Cloth_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Glove_Cloth_Mat.MI_Leon_Set00_Glove_Cloth_Mat",
+      "sha256_before": "8d0e74c750a8282ce16a451db1f47186326d2473e7f8a186b5c71604fdd0e028",
+      "sha256_after": "8d0e74c750a8282ce16a451db1f47186326d2473e7f8a186b5c71604fdd0e028"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Glove_Leather_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Glove_Leather_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Glove_Leather_Mat.MI_Leon_Set00_Glove_Leather_Mat",
+      "sha256_before": "122719be024ee08f2793020778cc769bec4c47305eae708b63379dcb14bb5974",
+      "sha256_after": "122719be024ee08f2793020778cc769bec4c47305eae708b63379dcb14bb5974"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Glove_Mesh_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Glove_Mesh_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Glove_Mesh_Mat.MI_Leon_Set00_Glove_Mesh_Mat",
+      "sha256_before": "402eb82669e0d0e61fd974994cd844b44dd9ab1af14a319a858bf712310f2630",
+      "sha256_after": "402eb82669e0d0e61fd974994cd844b44dd9ab1af14a319a858bf712310f2630"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Glove_Suede_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Glove_Suede_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Glove_Suede_Mat.MI_Leon_Set00_Glove_Suede_Mat",
+      "sha256_before": "7c1e3e06bad700bde5a52f3865ee7839a8038ba75086ea0ae1b8de3863d69ced",
+      "sha256_after": "7c1e3e06bad700bde5a52f3865ee7839a8038ba75086ea0ae1b8de3863d69ced"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_InnerBelt_Cloth_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_InnerBelt_Cloth_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_InnerBelt_Cloth_Mat.MI_Leon_Set00_InnerBelt_Cloth_Mat",
+      "sha256_before": "f1ed5955c346c9d9caf1f0e325869cfabb63de42e16f2cf713fec2e5f2f94c83",
+      "sha256_after": "f1ed5955c346c9d9caf1f0e325869cfabb63de42e16f2cf713fec2e5f2f94c83"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_InnerBelt_MagicTape_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_InnerBelt_MagicTape_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_InnerBelt_MagicTape_Mat.MI_Leon_Set00_InnerBelt_MagicTape_Mat",
+      "sha256_before": "e11eaaf978dbf8ef144e4381402372ea1614903661b212ed2620af5c9987eeca",
+      "sha256_after": "e11eaaf978dbf8ef144e4381402372ea1614903661b212ed2620af5c9987eeca"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_InnerBelt_Plastic_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_InnerBelt_Plastic_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_InnerBelt_Plastic_Mat.MI_Leon_Set00_InnerBelt_Plastic_Mat",
+      "sha256_before": "cf07154ab659b16fb3d4fb5e7393148ca8da5b1f3df11c9cd2b7b3e6d69d1a3f",
+      "sha256_after": "cf07154ab659b16fb3d4fb5e7393148ca8da5b1f3df11c9cd2b7b3e6d69d1a3f"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Inner_Cloth1_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Inner_Cloth1_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Inner_Cloth1_Mat.MI_Leon_Set00_Inner_Cloth1_Mat",
+      "sha256_before": "33be3aa51897e053e91291c2fdbaff4c168dab48d6d116fca8a0bd152e611f33",
+      "sha256_after": "33be3aa51897e053e91291c2fdbaff4c168dab48d6d116fca8a0bd152e611f33"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Inner_Cloth2_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Inner_Cloth2_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Inner_Cloth2_Mat.MI_Leon_Set00_Inner_Cloth2_Mat",
+      "sha256_before": "138e90fd5491b786be96540cd381d13c7016c6b76d1f235b89e6d7a7eb20f985",
+      "sha256_after": "138e90fd5491b786be96540cd381d13c7016c6b76d1f235b89e6d7a7eb20f985"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Inner_Cloth3_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Inner_Cloth3_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Inner_Cloth3_Mat.MI_Leon_Set00_Inner_Cloth3_Mat",
+      "sha256_before": "40b1e85b04b1d8c9481a80de6f28a1edff9df5bdd0fbca85028fbe4a0db5ca66",
+      "sha256_after": "40b1e85b04b1d8c9481a80de6f28a1edff9df5bdd0fbca85028fbe4a0db5ca66"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Inner_Metal_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Inner_Metal_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Inner_Metal_Mat.MI_Leon_Set00_Inner_Metal_Mat",
+      "sha256_before": "06066d26640e900ea727e60b7abf396c37cd4efa49f76e489085b66316ecbe7b",
+      "sha256_after": "06066d26640e900ea727e60b7abf396c37cd4efa49f76e489085b66316ecbe7b"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Inner_Stitch2_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Inner_Stitch2_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Inner_Stitch2_Mat.MI_Leon_Set00_Inner_Stitch2_Mat",
+      "sha256_before": "3ea36cf3d923b691912fdf0b45877e060669b5b10f0d0e201f615ccc35f9eb4d",
+      "sha256_after": "3ea36cf3d923b691912fdf0b45877e060669b5b10f0d0e201f615ccc35f9eb4d"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Inner_Stitch_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Inner_Stitch_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Inner_Stitch_Mat.MI_Leon_Set00_Inner_Stitch_Mat",
+      "sha256_before": "e9d9977426080407cb86501c8f2017cb0ebf816a2f29fe6a4cd268624ec535ff",
+      "sha256_after": "e9d9977426080407cb86501c8f2017cb0ebf816a2f29fe6a4cd268624ec535ff"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Jacket_Button_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Jacket_Button_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Jacket_Button_Mat.MI_Leon_Set00_Jacket_Button_Mat",
+      "sha256_before": "ad1369511ad776483e2dd9cd1e498f9b2012c90aae3552b22421bf0891076c5e",
+      "sha256_after": "ad1369511ad776483e2dd9cd1e498f9b2012c90aae3552b22421bf0891076c5e"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Jacket_Cloth_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Jacket_Cloth_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Jacket_Cloth_Mat.MI_Leon_Set00_Jacket_Cloth_Mat",
+      "sha256_before": "ee4fdf8409e0a8d3134211870cbb3d48072e837cddd75b06fcdd66d4f310d024",
+      "sha256_after": "ee4fdf8409e0a8d3134211870cbb3d48072e837cddd75b06fcdd66d4f310d024"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Jacket_FurA_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Jacket_FurA_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Jacket_FurA_Mat.MI_Leon_Set00_Jacket_FurA_Mat",
+      "sha256_before": "4cc6735c958cc26e2f156a6d68e8a7e5b35453248c48daaa23c9a1eb1b8ca825",
+      "sha256_after": "4cc6735c958cc26e2f156a6d68e8a7e5b35453248c48daaa23c9a1eb1b8ca825"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Jacket_FurB_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Jacket_FurB_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Jacket_FurB_Mat.MI_Leon_Set00_Jacket_FurB_Mat",
+      "sha256_before": "01c7bd684f860138b594365174d407090c44331de9832cfdfbc1b31d56ad24ba",
+      "sha256_after": "01c7bd684f860138b594365174d407090c44331de9832cfdfbc1b31d56ad24ba"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Jacket_Leather_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Jacket_Leather_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Jacket_Leather_Mat.MI_Leon_Set00_Jacket_Leather_Mat",
+      "sha256_before": "e17fc869a087d5843a0d804cc9e6752132e5bb1e23722eca0a80a44de5312629",
+      "sha256_after": "e17fc869a087d5843a0d804cc9e6752132e5bb1e23722eca0a80a44de5312629"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Jacket_Metal_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Jacket_Metal_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Jacket_Metal_Mat.MI_Leon_Set00_Jacket_Metal_Mat",
+      "sha256_before": "ef9332c941b4f1b529b4578c5afb10c0a4beb1a6bfd888828eaafe6415fbd96a",
+      "sha256_after": "ef9332c941b4f1b529b4578c5afb10c0a4beb1a6bfd888828eaafe6415fbd96a"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Jacket_Stitch_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Jacket_Stitch_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Jacket_Stitch_Mat.MI_Leon_Set00_Jacket_Stitch_Mat",
+      "sha256_before": "2910404d45037a8dc3ad801e6552ac2aef12600b4ed0699b5c9d412a5c1446a6",
+      "sha256_after": "2910404d45037a8dc3ad801e6552ac2aef12600b4ed0699b5c9d412a5c1446a6"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_PantsStitch_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_PantsStitch_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_PantsStitch_Mat.MI_Leon_Set00_PantsStitch_Mat",
+      "sha256_before": "d9294beb6bd4682e711c743659778a064a00bde7cecd8c33934bc078d72ac9ed",
+      "sha256_after": "d9294beb6bd4682e711c743659778a064a00bde7cecd8c33934bc078d72ac9ed"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Pants_Cloth_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Pants_Cloth_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Pants_Cloth_Mat.MI_Leon_Set00_Pants_Cloth_Mat",
+      "sha256_before": "d482e6d766b39003ff2e45c88507475cf46313674b264241dffbd283a2e94bd8",
+      "sha256_after": "d482e6d766b39003ff2e45c88507475cf46313674b264241dffbd283a2e94bd8"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Pants_RubberFabric_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Pants_RubberFabric_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Pants_RubberFabric_Mat.MI_Leon_Set00_Pants_RubberFabric_Mat",
+      "sha256_before": "8eb398229334b8cb8dab2488937bbd8682870d00414b0621e7a801de8feeb311",
+      "sha256_after": "8eb398229334b8cb8dab2488937bbd8682870d00414b0621e7a801de8feeb311"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_RequiemBullet_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_RequiemBullet_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_RequiemBullet_Mat.MI_Leon_Set00_RequiemBullet_Mat",
+      "sha256_before": "95cb02b9025819a4ccd1e8ae39d6c35569caaecd8b4e28da1344df4c8cb95eae",
+      "sha256_after": "95cb02b9025819a4ccd1e8ae39d6c35569caaecd8b4e28da1344df4c8cb95eae"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_RequiemHolster_Body_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_RequiemHolster_Body_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_RequiemHolster_Body_Mat.MI_Leon_Set00_RequiemHolster_Body_Mat",
+      "sha256_before": "0fc269c185092b71827efcdb3fd1b417a913b86ec58f4a2ea185a81ae32d3afe",
+      "sha256_after": "0fc269c185092b71827efcdb3fd1b417a913b86ec58f4a2ea185a81ae32d3afe"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_RequiemHolster_Metal_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_RequiemHolster_Metal_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_RequiemHolster_Metal_Mat.MI_Leon_Set00_RequiemHolster_Metal_Mat",
+      "sha256_before": "2abe2a875633086ca8e3ca85558fefc882ba1b28544ba6e114ed5b67f4112c21",
+      "sha256_after": "2abe2a875633086ca8e3ca85558fefc882ba1b28544ba6e114ed5b67f4112c21"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Shoes_Cloth_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Shoes_Cloth_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Shoes_Cloth_Mat.MI_Leon_Set00_Shoes_Cloth_Mat",
+      "sha256_before": "3903a64addc8190ee7987bc0dbb5a5de401a0c39d7743394f7cc3e7f9c16dbfc",
+      "sha256_after": "3903a64addc8190ee7987bc0dbb5a5de401a0c39d7743394f7cc3e7f9c16dbfc"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Shoes_Mesh_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Shoes_Mesh_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Shoes_Mesh_Mat.MI_Leon_Set00_Shoes_Mesh_Mat",
+      "sha256_before": "e7c88d9573893bf6e2cda4ebbefd936b1732959e0b80e0ba08e5bf184cc277b5",
+      "sha256_after": "e7c88d9573893bf6e2cda4ebbefd936b1732959e0b80e0ba08e5bf184cc277b5"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Shoes_Plastic_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Shoes_Plastic_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Shoes_Plastic_Mat.MI_Leon_Set00_Shoes_Plastic_Mat",
+      "sha256_before": "ea7b6362b28b089cb61f75abcb7409f92c3012063d0a0326ac232f2c9cca9d92",
+      "sha256_after": "ea7b6362b28b089cb61f75abcb7409f92c3012063d0a0326ac232f2c9cca9d92"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Shoes_Rubber_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Shoes_Rubber_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Shoes_Rubber_Mat.MI_Leon_Set00_Shoes_Rubber_Mat",
+      "sha256_before": "b49fcc3b211b710140b987b068e9cb8bb6604d1e1699701216a738dd1d474ccb",
+      "sha256_after": "b49fcc3b211b710140b987b068e9cb8bb6604d1e1699701216a738dd1d474ccb"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_Shoes_lace_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_Shoes_lace_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_Shoes_lace_Mat.MI_Leon_Set00_Shoes_lace_Mat",
+      "sha256_before": "27631865afe93ad2274de9618938a857a995197bc8ee47466be4a95375e7b83a",
+      "sha256_after": "27631865afe93ad2274de9618938a857a995197bc8ee47466be4a95375e7b83a"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_TacticalVest_Cloth1_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_TacticalVest_Cloth1_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_TacticalVest_Cloth1_Mat.MI_Leon_Set00_TacticalVest_Cloth1_Mat",
+      "sha256_before": "6a5366a3a456889462fb354dee462073488cb6a7dbdf865ca4680d6b1b8a1385",
+      "sha256_after": "6a5366a3a456889462fb354dee462073488cb6a7dbdf865ca4680d6b1b8a1385"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_TacticalVest_Cloth2_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_TacticalVest_Cloth2_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_TacticalVest_Cloth2_Mat.MI_Leon_Set00_TacticalVest_Cloth2_Mat",
+      "sha256_before": "49e03848736f9e8e8fdd8fb3ac7a29add50906a828e4cdc69e50099192660af1",
+      "sha256_after": "49e03848736f9e8e8fdd8fb3ac7a29add50906a828e4cdc69e50099192660af1"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_TacticalVest_MagicTape_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_TacticalVest_MagicTape_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_TacticalVest_MagicTape_Mat.MI_Leon_Set00_TacticalVest_MagicTape_Mat",
+      "sha256_before": "870166ffc7b4a5ccc648ee3a85e255e23709141106b240c6b683554db64240bc",
+      "sha256_after": "870166ffc7b4a5ccc648ee3a85e255e23709141106b240c6b683554db64240bc"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_TacticalVest_Plastic_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_TacticalVest_Plastic_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_TacticalVest_Plastic_Mat.MI_Leon_Set00_TacticalVest_Plastic_Mat",
+      "sha256_before": "97137ead08503f4ace1f3428b86bcf1fcaaa62132cb442980b1227435695a53b",
+      "sha256_after": "97137ead08503f4ace1f3428b86bcf1fcaaa62132cb442980b1227435695a53b"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set00_TacticalVest_Stitch_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set00_TacticalVest_Stitch_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set00_TacticalVest_Stitch_Mat.MI_Leon_Set00_TacticalVest_Stitch_Mat",
+      "sha256_before": "5b371943e50dca33ec222d306aef1b88a939b149d7de1e1618265d8547adbe28",
+      "sha256_after": "5b371943e50dca33ec222d306aef1b88a939b149d7de1e1618265d8547adbe28"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set01_Glove_Cloth_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set01_Glove_Cloth_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set01_Glove_Cloth_Mat.MI_Leon_Set01_Glove_Cloth_Mat",
+      "sha256_before": "922f15a02bddb9b06f0637d80117418d2fcefd464037f79709afb7551b61202f",
+      "sha256_after": "922f15a02bddb9b06f0637d80117418d2fcefd464037f79709afb7551b61202f"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set01_Glove_Leather_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set01_Glove_Leather_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set01_Glove_Leather_Mat.MI_Leon_Set01_Glove_Leather_Mat",
+      "sha256_before": "6c29170f789fb7984e5727e00dd3f04d533116c1ea9d9043b5feef20992b519d",
+      "sha256_after": "6c29170f789fb7984e5727e00dd3f04d533116c1ea9d9043b5feef20992b519d"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set01_Glove_Mesh_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set01_Glove_Mesh_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set01_Glove_Mesh_Mat.MI_Leon_Set01_Glove_Mesh_Mat",
+      "sha256_before": "2b854baccd4243f3d341a640e7b286a855522accd278e69fc10a2f588cf4f04b",
+      "sha256_after": "2b854baccd4243f3d341a640e7b286a855522accd278e69fc10a2f588cf4f04b"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Set01_Glove_Suede_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Set01_Glove_Suede_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Set01_Glove_Suede_Mat.MI_Leon_Set01_Glove_Suede_Mat",
+      "sha256_before": "3f5d752080b6ce612e8a46ddb6a6d45e4d253f92d371d7ce5ff02be1c77fafb5",
+      "sha256_after": "3f5d752080b6ce612e8a46ddb6a6d45e4d253f92d371d7ce5ff02be1c77fafb5"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_ShoulderKevlar_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_ShoulderKevlar_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_ShoulderKevlar_Mat.MI_Leon_ShoulderKevlar_Mat",
+      "sha256_before": "4f2226bd959ad9ad6ec3fed5814a11840f6c5a8af9520dbc53c32a338ce341c5",
+      "sha256_after": "4f2226bd959ad9ad6ec3fed5814a11840f6c5a8af9520dbc53c32a338ce341c5"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_ShoulderPad_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_ShoulderPad_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_ShoulderPad_Mat.MI_Leon_ShoulderPad_Mat",
+      "sha256_before": "eaaaeddf571388e66ff78f926bfc32fff156039b0dd2c3c984fd818bb8b996ee",
+      "sha256_after": "eaaaeddf571388e66ff78f926bfc32fff156039b0dd2c3c984fd818bb8b996ee"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_Teeth_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_Teeth_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_Teeth_Mat.MI_Leon_Teeth_Mat",
+      "sha256_before": "efbbf5a55b322c001fa1ff58f2c8e6e9890484e96cde297b94faee6031bd285d",
+      "sha256_after": "efbbf5a55b322c001fa1ff58f2c8e6e9890484e96cde297b94faee6031bd285d"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_VelcroTape00_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_VelcroTape00_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_VelcroTape00_Mat.MI_Leon_VelcroTape00_Mat",
+      "sha256_before": "16b407b00e5718dea04b0c6fff3ae70c9bb2f9691aaeff1044cddb9d72ae10a4",
+      "sha256_after": "16b407b00e5718dea04b0c6fff3ae70c9bb2f9691aaeff1044cddb9d72ae10a4"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_VelcroTape01_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_VelcroTape01_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_VelcroTape01_Mat.MI_Leon_VelcroTape01_Mat",
+      "sha256_before": "feb33d4450d8b857658fbca49b925792310fa3947164d2e16b8befd42c6779d6",
+      "sha256_after": "feb33d4450d8b857658fbca49b925792310fa3947164d2e16b8befd42c6779d6"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_WatchBelt00_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_WatchBelt00_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_WatchBelt00_Mat.MI_Leon_WatchBelt00_Mat",
+      "sha256_before": "292a6d845bb8da15dc2a2a0d16f13725e039e27a0b04207dd018c5c77aac1116",
+      "sha256_after": "292a6d845bb8da15dc2a2a0d16f13725e039e27a0b04207dd018c5c77aac1116"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_WatchBelt01_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_WatchBelt01_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_WatchBelt01_Mat.MI_Leon_WatchBelt01_Mat",
+      "sha256_before": "1092bcfdf57f6e98808cf45670844e07d85c83ec61cd61405374d29096770757",
+      "sha256_after": "1092bcfdf57f6e98808cf45670844e07d85c83ec61cd61405374d29096770757"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_WatchBeltMetal_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_WatchBeltMetal_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_WatchBeltMetal_Mat.MI_Leon_WatchBeltMetal_Mat",
+      "sha256_before": "135c16a28911bb7b8b80c23e095391a1b99f64f82ec286c2d5edf5a401bd5fd7",
+      "sha256_after": "135c16a28911bb7b8b80c23e095391a1b99f64f82ec286c2d5edf5a401bd5fd7"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_WatchBeltStitch_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_WatchBeltStitch_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_WatchBeltStitch_Mat.MI_Leon_WatchBeltStitch_Mat",
+      "sha256_before": "383175e4fb3ac77d52fbe54ab66d41c9a7e15491f1f73ca54ff65806760083d9",
+      "sha256_after": "383175e4fb3ac77d52fbe54ab66d41c9a7e15491f1f73ca54ff65806760083d9"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_WatchBody_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_WatchBody_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_WatchBody_Mat.MI_Leon_WatchBody_Mat",
+      "sha256_before": "b4995f6129e6a8f56743f04394994d2c9ba58e10d35ac5148895d2dfc3d329d2",
+      "sha256_after": "b4995f6129e6a8f56743f04394994d2c9ba58e10d35ac5148895d2dfc3d329d2"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_WatchDial_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_WatchDial_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_WatchDial_Mat.MI_Leon_WatchDial_Mat",
+      "sha256_before": "5255c56021a78cbd41236ffe6909be81f55f30bd781faf81bf1fc5102e76ef41",
+      "sha256_after": "5255c56021a78cbd41236ffe6909be81f55f30bd781faf81bf1fc5102e76ef41"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_WatchEmissive_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_WatchEmissive_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_WatchEmissive_Mat.MI_Leon_WatchEmissive_Mat",
+      "sha256_before": "039d6d1a7ac0beee787d7565fa01d44a8143ef3d5a49adaa420bc94ca057c208",
+      "sha256_after": "039d6d1a7ac0beee787d7565fa01d44a8143ef3d5a49adaa420bc94ca057c208"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/MI_Leon_WatchGlass_geo",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\MI_Leon_WatchGlass_geo.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/MI_Leon_WatchGlass_geo.MI_Leon_WatchGlass_geo",
+      "sha256_before": "761a484852136c71562b3e541c54bb076c37cdc6ebeb08391cbe41a22cf9fabc",
+      "sha256_after": "761a484852136c71562b3e541c54bb076c37cdc6ebeb08391cbe41a22cf9fabc"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/M_Leon_EyeShell_Occlusion",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\M_Leon_EyeShell_Occlusion.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/M_Leon_EyeShell_Occlusion.M_Leon_EyeShell_Occlusion",
+      "sha256_before": "db873fcb253a39bb3b62817cbbd709ba55ea5fa50ba5f9c5c465803ee5fade18",
+      "sha256_after": "db873fcb253a39bb3b62817cbbd709ba55ea5fa50ba5f9c5c465803ee5fade18"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/M_Leon_Eye_DefaultLitNative",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\M_Leon_Eye_DefaultLitNative.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/M_Leon_Eye_DefaultLitNative.M_Leon_Eye_DefaultLitNative",
+      "sha256_before": "a62686bb47a160b57ce7990c4e8a405dc9357757a9e8780e5376b468f22a0b87",
+      "sha256_after": "a62686bb47a160b57ce7990c4e8a405dc9357757a9e8780e5376b468f22a0b87"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/M_Leon_PBR_Glass",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\M_Leon_PBR_Glass.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/M_Leon_PBR_Glass.M_Leon_PBR_Glass",
+      "sha256_before": "aa2cbbfef8f77ece3c86c00ca889d3c638455bc952b117a732679e792f4d2fad",
+      "sha256_after": "aa2cbbfef8f77ece3c86c00ca889d3c638455bc952b117a732679e792f4d2fad"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/M_Leon_PBR_Masked",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\M_Leon_PBR_Masked.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/M_Leon_PBR_Masked.M_Leon_PBR_Masked",
+      "sha256_before": "203da7b02c14c29aec132a9232b5d23c9221e74c4b245ca88afdafbce16fe09d",
+      "sha256_after": "203da7b02c14c29aec132a9232b5d23c9221e74c4b245ca88afdafbce16fe09d"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/M_Leon_PBR_Opaque",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\M_Leon_PBR_Opaque.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/M_Leon_PBR_Opaque.M_Leon_PBR_Opaque",
+      "sha256_before": "9a6fc5d8cce1507e237ea3fe0387e0dc55aa0c80ae090c3f78d12e6f4ef7083b",
+      "sha256_after": "9a6fc5d8cce1507e237ea3fe0387e0dc55aa0c80ae090c3f78d12e6f4ef7083b"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/M_Leon_PBR_Skin",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\M_Leon_PBR_Skin.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/M_Leon_PBR_Skin.M_Leon_PBR_Skin",
+      "sha256_before": "750ec5a7c281abf11ad74be66a954ba31c5b7ab2563d09db467783b232e76d4c",
+      "sha256_after": "750ec5a7c281abf11ad74be66a954ba31c5b7ab2563d09db467783b232e76d4c"
+    },
+    {
+      "package": "/Game/Leon/Materials/Original/M_Leon_Stitch_NativeAlpha",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Materials\\Original\\M_Leon_Stitch_NativeAlpha.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Materials/Original/M_Leon_Stitch_NativeAlpha.M_Leon_Stitch_NativeAlpha",
+      "sha256_before": "d8cfaa7b65c7e7a3585f2c81b71be3d1650469d7f308bee359714873d20a89cd",
+      "sha256_after": "d8cfaa7b65c7e7a3585f2c81b71be3d1650469d7f308bee359714873d20a89cd"
+    },
+    {
+      "package": "/Game/Leon/Mesh/FullRigSeed/Leon_FullRigSeed/SkeletalMeshes/Leon_FullRigSeed",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Mesh\\FullRigSeed\\Leon_FullRigSeed\\SkeletalMeshes\\Leon_FullRigSeed.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Mesh/FullRigSeed/Leon_FullRigSeed/SkeletalMeshes/Leon_FullRigSeed.Leon_FullRigSeed",
+      "sha256_before": "63bbdb01e34c12425de8bd541fba82159257c1d515952b96bdda2efb45772888",
+      "sha256_after": "63bbdb01e34c12425de8bd541fba82159257c1d515952b96bdda2efb45772888"
+    },
+    {
+      "package": "/Game/Leon/Mesh/FullRigSeed/Leon_FullRigSeed/SkeletalMeshes/Leon_FullRigSeed_Skeleton",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Mesh\\FullRigSeed\\Leon_FullRigSeed\\SkeletalMeshes\\Leon_FullRigSeed_Skeleton.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Mesh/FullRigSeed/Leon_FullRigSeed/SkeletalMeshes/Leon_FullRigSeed_Skeleton.Leon_FullRigSeed_Skeleton",
+      "sha256_before": "ff20a989e37eb589b23212557672fc0f1578040d6cce372dbd58e4df059b635d",
+      "sha256_after": "ff20a989e37eb589b23212557672fc0f1578040d6cce372dbd58e4df059b635d"
+    },
+    {
+      "package": "/Game/Leon/Mesh/Leon_45_00",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Mesh\\Leon_45_00.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Mesh/Leon_45_00.Leon_45_00",
+      "sha256_before": "9e6f33acdb65ab2ef59db63a7515af519a5ae35d39b2a827ee16b7bed2892043",
+      "sha256_after": "9e6f33acdb65ab2ef59db63a7515af519a5ae35d39b2a827ee16b7bed2892043"
+    },
+    {
+      "package": "/Game/Leon/Mesh/Leon_45_00_Skeleton",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Mesh\\Leon_45_00_Skeleton.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Mesh/Leon_45_00_Skeleton.Leon_45_00_Skeleton",
+      "sha256_before": "2c64d3815a2c77657ff873889bcef157dce59dade9c7fb4e7381767aa56234ff",
+      "sha256_after": "2c64d3815a2c77657ff873889bcef157dce59dade9c7fb4e7381767aa56234ff"
+    },
+    {
+      "package": "/Game/Leon/Mesh/SK_Leon_Preview",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Mesh\\SK_Leon_Preview.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Mesh/SK_Leon_Preview.SK_Leon_Preview",
+      "sha256_before": "9d9a637531390037e4c289f743f1cee97d29016f6ed993e3b62e243bc9b13b05",
+      "sha256_after": "9d9a637531390037e4c289f743f1cee97d29016f6ed993e3b62e243bc9b13b05"
+    },
+    {
+      "package": "/Game/Leon/Mesh/SK_Leon_Preview_PhysicsAsset",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Mesh\\SK_Leon_Preview_PhysicsAsset.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Mesh/SK_Leon_Preview_PhysicsAsset.SK_Leon_Preview_PhysicsAsset",
+      "sha256_before": "14a08a148304c99d1163df310c00fea1fb2a05d2a4944171d33650c2dbf05d0d",
+      "sha256_after": "14a08a148304c99d1163df310c00fea1fb2a05d2a4944171d33650c2dbf05d0d"
+    },
+    {
+      "package": "/Game/Leon/Mesh/SK_Leon_Preview_Skeleton",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Mesh\\SK_Leon_Preview_Skeleton.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Mesh/SK_Leon_Preview_Skeleton.SK_Leon_Preview_Skeleton",
+      "sha256_before": "1e43be3223ea8a0edf8fb4afb7dc8d2cb707de7d6d84104b86234f99598d9982",
+      "sha256_after": "1e43be3223ea8a0edf8fb4afb7dc8d2cb707de7d6d84104b86234f99598d9982"
+    },
+    {
+      "package": "/Game/Leon/Preview/LeonVideoPreview",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Preview\\LeonVideoPreview.umap",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Preview/LeonVideoPreview.LeonVideoPreview",
+      "sha256_before": "846e76746d5bdffb54c7c8326630bad6472ab906e8f0d518dd16e202f709d295",
+      "sha256_after": "846e76746d5bdffb54c7c8326630bad6472ab906e8f0d518dd16e202f709d295"
+    },
+    {
+      "package": "/Game/Leon/Preview/Materials/MI_LeonFace_Stage",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Preview\\Materials\\MI_LeonFace_Stage.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Preview/Materials/MI_LeonFace_Stage.MI_LeonFace_Stage",
+      "sha256_before": "f37321b41f0645daa17b959e6963c861c013c0e32ec09895ee9c358f1698e54a",
+      "sha256_after": "f37321b41f0645daa17b959e6963c861c013c0e32ec09895ee9c358f1698e54a"
+    },
+    {
+      "package": "/Game/Leon/Preview/Materials/MI_LeonStageCloth_Set00_Inner_Cloth1_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Preview\\Materials\\MI_LeonStageCloth_Set00_Inner_Cloth1_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Preview/Materials/MI_LeonStageCloth_Set00_Inner_Cloth1_Mat.MI_LeonStageCloth_Set00_Inner_Cloth1_Mat",
+      "sha256_before": "6f7c6aa2bec1431d11e2b95529f1108a629619451ef7c260fc6e0c82cd36002a",
+      "sha256_after": "6f7c6aa2bec1431d11e2b95529f1108a629619451ef7c260fc6e0c82cd36002a"
+    },
+    {
+      "package": "/Game/Leon/Preview/Materials/MI_LeonStageCloth_Set00_Inner_Cloth3_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Preview\\Materials\\MI_LeonStageCloth_Set00_Inner_Cloth3_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Preview/Materials/MI_LeonStageCloth_Set00_Inner_Cloth3_Mat.MI_LeonStageCloth_Set00_Inner_Cloth3_Mat",
+      "sha256_before": "79f2d7e7c285b0e87b74a815887b70689139338a02b8d8a270f61874bda45a53",
+      "sha256_after": "79f2d7e7c285b0e87b74a815887b70689139338a02b8d8a270f61874bda45a53"
+    },
+    {
+      "package": "/Game/Leon/Preview/Materials/MI_LeonStageCloth_Set00_Jacket_Cloth_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Preview\\Materials\\MI_LeonStageCloth_Set00_Jacket_Cloth_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Preview/Materials/MI_LeonStageCloth_Set00_Jacket_Cloth_Mat.MI_LeonStageCloth_Set00_Jacket_Cloth_Mat",
+      "sha256_before": "0f101036764fc5890c0f30881a93e92f59cf178b289eaccfca345f08815ad81d",
+      "sha256_after": "0f101036764fc5890c0f30881a93e92f59cf178b289eaccfca345f08815ad81d"
+    },
+    {
+      "package": "/Game/Leon/Preview/Materials/MI_LeonStageCloth_Set00_Pants_Cloth_Mat",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Preview\\Materials\\MI_LeonStageCloth_Set00_Pants_Cloth_Mat.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Preview/Materials/MI_LeonStageCloth_Set00_Pants_Cloth_Mat.MI_LeonStageCloth_Set00_Pants_Cloth_Mat",
+      "sha256_before": "fa8cc78971d746b269e66d58783bb4fcc62dbf287160c585ee5b277b6fd6082e",
+      "sha256_after": "fa8cc78971d746b269e66d58783bb4fcc62dbf287160c585ee5b277b6fd6082e"
+    },
+    {
+      "package": "/Game/Leon/Preview/Materials/M_Leon_StageClothApprox",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Preview\\Materials\\M_Leon_StageClothApprox.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Preview/Materials/M_Leon_StageClothApprox.M_Leon_StageClothApprox",
+      "sha256_before": "455f044c400823f4201e13aaa29455326ef747dceb7f0c0811c93985bc8d9ab7",
+      "sha256_after": "455f044c400823f4201e13aaa29455326ef747dceb7f0c0811c93985bc8d9ab7"
+    },
+    {
+      "package": "/Game/Leon/Preview/UI/M_LeonStageBackdrop",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Preview\\UI\\M_LeonStageBackdrop.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Preview/UI/M_LeonStageBackdrop.M_LeonStageBackdrop",
+      "sha256_before": "190f30b784be77e93426f6a91104bebf33364d6a979f67b1ae410904a77d0872",
+      "sha256_after": "190f30b784be77e93426f6a91104bebf33364d6a979f67b1ae410904a77d0872"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_18gray_008eb4",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_18gray_008eb4.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_18gray_008eb4.T_18gray_008eb4",
+      "sha256_before": "ecd3ab1a9e33d5fd538943974050a9d62aa3ffc09dffe2bed755a150938e7d83",
+      "sha256_after": "ecd3ab1a9e33d5fd538943974050a9d62aa3ffc09dffe2bed755a150938e7d83"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_Leon_StitchPacked_detail_stitch_vt08_msk4_a5ac9c",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_Leon_StitchPacked_detail_stitch_vt08_msk4_a5ac9c.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_Leon_StitchPacked_detail_stitch_vt08_msk4_a5ac9c.T_Leon_StitchPacked_detail_stitch_vt08_msk4_a5ac9c",
+      "sha256_before": "0f3e345dcf2a3fd5fc5a9ec285e1a3c90a075d65049a52cf67facc0529c0c112",
+      "sha256_after": "0f3e345dcf2a3fd5fc5a9ec285e1a3c90a075d65049a52cf67facc0529c0c112"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_Leon_StitchPacked_detail_stitch_vtl03_msk4_2b304e",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_Leon_StitchPacked_detail_stitch_vtl03_msk4_2b304e.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_Leon_StitchPacked_detail_stitch_vtl03_msk4_2b304e.T_Leon_StitchPacked_detail_stitch_vtl03_msk4_2b304e",
+      "sha256_before": "5336c6a70a5c9dd13f6a2d3449542206178d14412e3a7a4d0218ac4b4a2d7c4b",
+      "sha256_after": "5336c6a70a5c9dd13f6a2d3449542206178d14412e3a7a4d0218ac4b4a2d7c4b"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_01_01_00_arm_virus01_albd_1e0ba9",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_01_01_00_arm_virus01_albd_1e0ba9.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_01_01_00_arm_virus01_albd_1e0ba9.T_ch0100_01_01_00_arm_virus01_albd_1e0ba9",
+      "sha256_before": "5d177ae8d6dd849489d6e8830304b066d1f689d000a084a0b5405a1210cbdbcb",
+      "sha256_after": "5d177ae8d6dd849489d6e8830304b066d1f689d000a084a0b5405a1210cbdbcb"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_01_01_00_arm_virus01_albd_1e0ba9_metallic",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_01_01_00_arm_virus01_albd_1e0ba9_metallic.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_01_01_00_arm_virus01_albd_1e0ba9_metallic.T_ch0100_01_01_00_arm_virus01_albd_1e0ba9_metallic",
+      "sha256_before": "8fda3c722017d3adfb41534b6c3496133f1218caa904fa3b652d65c0ed9fb104",
+      "sha256_after": "8fda3c722017d3adfb41534b6c3496133f1218caa904fa3b652d65c0ed9fb104"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_01_01_00_arm_virus01_nrmr_71e4fa_normal",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_01_01_00_arm_virus01_nrmr_71e4fa_normal.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_01_01_00_arm_virus01_nrmr_71e4fa_normal.T_ch0100_01_01_00_arm_virus01_nrmr_71e4fa_normal",
+      "sha256_before": "aa5aeeb8b6826dd68f7166f6a9bb630511aa2ef200c94373ec6093829a86dde0",
+      "sha256_after": "aa5aeeb8b6826dd68f7166f6a9bb630511aa2ef200c94373ec6093829a86dde0"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_01_01_00_arm_virus01_nrmr_71e4fa_roughness",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_01_01_00_arm_virus01_nrmr_71e4fa_roughness.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_01_01_00_arm_virus01_nrmr_71e4fa_roughness.T_ch0100_01_01_00_arm_virus01_nrmr_71e4fa_roughness",
+      "sha256_before": "649860378c53941f535a0c9065a43f3d14a619e32c547929dedcf4746fb6219a",
+      "sha256_after": "649860378c53941f535a0c9065a43f3d14a619e32c547929dedcf4746fb6219a"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_01_01_00_arm_virus01_scot_a26e45_occlusion",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_01_01_00_arm_virus01_scot_a26e45_occlusion.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_01_01_00_arm_virus01_scot_a26e45_occlusion.T_ch0100_01_01_00_arm_virus01_scot_a26e45_occlusion",
+      "sha256_before": "93359cfc561ea6a381cfdf17fe07e4d5ddb605e12407c3c53d46ead7a1f77291",
+      "sha256_after": "93359cfc561ea6a381cfdf17fe07e4d5ddb605e12407c3c53d46ead7a1f77291"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_01_glove_acot_5355bc_occlusion",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_01_glove_acot_5355bc_occlusion.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_01_glove_acot_5355bc_occlusion.T_ch0100_01_glove_acot_5355bc_occlusion",
+      "sha256_before": "0f80c5bda8b055ffc21a640c6c8090fbf8d1cfb1cf6d7b0772c6b033afcc7c35",
+      "sha256_after": "0f80c5bda8b055ffc21a640c6c8090fbf8d1cfb1cf6d7b0772c6b033afcc7c35"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_01_glove_albd_2c3c67",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_01_glove_albd_2c3c67.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_01_glove_albd_2c3c67.T_ch0100_01_glove_albd_2c3c67",
+      "sha256_before": "ddb7a58ed8315b54a8a50e23ceae310b828285a6872eef3540baf19101167250",
+      "sha256_after": "ddb7a58ed8315b54a8a50e23ceae310b828285a6872eef3540baf19101167250"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_01_glove_albd_2c3c67_metallic",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_01_glove_albd_2c3c67_metallic.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_01_glove_albd_2c3c67_metallic.T_ch0100_01_glove_albd_2c3c67_metallic",
+      "sha256_before": "8e6f7c3ec605dda2289f25701bdce1476f5cf9ecaebd624cf7ca705ea7f0503e",
+      "sha256_after": "8e6f7c3ec605dda2289f25701bdce1476f5cf9ecaebd624cf7ca705ea7f0503e"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_01_glove_nrmr_eb01ed_normal",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_01_glove_nrmr_eb01ed_normal.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_01_glove_nrmr_eb01ed_normal.T_ch0100_01_glove_nrmr_eb01ed_normal",
+      "sha256_before": "d1de5f734732263331a9e5ae7d74e4117e8374f32d784d3506ff35ff0299777a",
+      "sha256_after": "d1de5f734732263331a9e5ae7d74e4117e8374f32d784d3506ff35ff0299777a"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_01_glove_nrmr_eb01ed_roughness",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_01_glove_nrmr_eb01ed_roughness.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_01_glove_nrmr_eb01ed_roughness.T_ch0100_01_glove_nrmr_eb01ed_roughness",
+      "sha256_before": "c80db127887f5942dc55a6235437ac98aa774fe62d98b0d142f840c4bd7648fb",
+      "sha256_after": "c80db127887f5942dc55a6235437ac98aa774fe62d98b0d142f840c4bd7648fb"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_02_00_arm_virus01_albd_c08337",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_02_00_arm_virus01_albd_c08337.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_02_00_arm_virus01_albd_c08337.T_ch0100_02_00_arm_virus01_albd_c08337",
+      "sha256_before": "4eed67efcdf1540b8a1de95c66dab766edc6d33f2fdf1f99f5de445c5c9b7e6e",
+      "sha256_after": "4eed67efcdf1540b8a1de95c66dab766edc6d33f2fdf1f99f5de445c5c9b7e6e"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_02_00_arm_virus01_albd_c08337_metallic",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_02_00_arm_virus01_albd_c08337_metallic.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_02_00_arm_virus01_albd_c08337_metallic.T_ch0100_02_00_arm_virus01_albd_c08337_metallic",
+      "sha256_before": "9242fd34363c00e70a6edab9dc9f6ff14df441623c13f7da11f3cd4c4420654e",
+      "sha256_after": "9242fd34363c00e70a6edab9dc9f6ff14df441623c13f7da11f3cd4c4420654e"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_02_00_arm_virus01_nrmr_c4fdca_normal",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_02_00_arm_virus01_nrmr_c4fdca_normal.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_02_00_arm_virus01_nrmr_c4fdca_normal.T_ch0100_02_00_arm_virus01_nrmr_c4fdca_normal",
+      "sha256_before": "d6a949fa4afd99e576a5342d69c2365432c3108938eb17709328c28cd9e81944",
+      "sha256_after": "d6a949fa4afd99e576a5342d69c2365432c3108938eb17709328c28cd9e81944"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_02_00_arm_virus01_nrmr_c4fdca_roughness",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_02_00_arm_virus01_nrmr_c4fdca_roughness.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_02_00_arm_virus01_nrmr_c4fdca_roughness.T_ch0100_02_00_arm_virus01_nrmr_c4fdca_roughness",
+      "sha256_before": "1011a47b74f352b080fbce2c3f86f853fe98bd50479d247a86a8fa5f3b30b3d7",
+      "sha256_after": "1011a47b74f352b080fbce2c3f86f853fe98bd50479d247a86a8fa5f3b30b3d7"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_02_00_arm_virus01_scot_70185b_occlusion",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_02_00_arm_virus01_scot_70185b_occlusion.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_02_00_arm_virus01_scot_70185b_occlusion.T_ch0100_02_00_arm_virus01_scot_70185b_occlusion",
+      "sha256_before": "02e00d9ac8455aec744dc2050953b7ab8dbfea1226952d06dd315f80ffda4980",
+      "sha256_after": "02e00d9ac8455aec744dc2050953b7ab8dbfea1226952d06dd315f80ffda4980"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_10_00_00_beard_albs_1e4708",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_10_00_00_beard_albs_1e4708.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_10_00_00_beard_albs_1e4708.T_ch0100_10_00_00_beard_albs_1e4708",
+      "sha256_before": "fd3ef09cd75a38e2b3493f1f031bf842c6a97f903d627c8fa2cbba342acc970f",
+      "sha256_after": "fd3ef09cd75a38e2b3493f1f031bf842c6a97f903d627c8fa2cbba342acc970f"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_10_00_09_face_albd_9cbba1",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_10_00_09_face_albd_9cbba1.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_10_00_09_face_albd_9cbba1.T_ch0100_10_00_09_face_albd_9cbba1",
+      "sha256_before": "cd828542c13444f6cb28c207cdbad1c80842fb5cf4837b108d705fbabd2dd1ad",
+      "sha256_after": "cd828542c13444f6cb28c207cdbad1c80842fb5cf4837b108d705fbabd2dd1ad"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_10_00_09_face_albd_9cbba1_metallic",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_10_00_09_face_albd_9cbba1_metallic.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_10_00_09_face_albd_9cbba1_metallic.T_ch0100_10_00_09_face_albd_9cbba1_metallic",
+      "sha256_before": "8041e4a8aed6eb1dbb2f2631b59c1e632854918d2062f3fe319559180e8ba45d",
+      "sha256_after": "8041e4a8aed6eb1dbb2f2631b59c1e632854918d2062f3fe319559180e8ba45d"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_10_00_09_face_scot_5ed73b_occlusion",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_10_00_09_face_scot_5ed73b_occlusion.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_10_00_09_face_scot_5ed73b_occlusion.T_ch0100_10_00_09_face_scot_5ed73b_occlusion",
+      "sha256_before": "fe0db284f136316933daed40a632dc48d19204270c149607183aabc138dd6987",
+      "sha256_after": "fe0db284f136316933daed40a632dc48d19204270c149607183aabc138dd6987"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_10_00_face_nrmr_7d89a6_normal",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_10_00_face_nrmr_7d89a6_normal.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_10_00_face_nrmr_7d89a6_normal.T_ch0100_10_00_face_nrmr_7d89a6_normal",
+      "sha256_before": "3ece7464ac12656ff472c542a074cea4d6229866f2330af2fc61ce6f4b60d083",
+      "sha256_after": "3ece7464ac12656ff472c542a074cea4d6229866f2330af2fc61ce6f4b60d083"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_10_00_face_nrmr_7d89a6_roughness",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_10_00_face_nrmr_7d89a6_roughness.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_10_00_face_nrmr_7d89a6_roughness.T_ch0100_10_00_face_nrmr_7d89a6_roughness",
+      "sha256_before": "774f545936b3d7eb9110ce1d9918fb756b7d04164dd657bf0ef654966f2a8899",
+      "sha256_after": "774f545936b3d7eb9110ce1d9918fb756b7d04164dd657bf0ef654966f2a8899"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_20_00_00_hair_acot_83ec10_occlusion",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_20_00_00_hair_acot_83ec10_occlusion.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_20_00_00_hair_acot_83ec10_occlusion.T_ch0100_20_00_00_hair_acot_83ec10_occlusion",
+      "sha256_before": "11cf2ade40f184517a844f8df2a4d8dc68f61dc01b576593dd65c591ddd62d4b",
+      "sha256_after": "11cf2ade40f184517a844f8df2a4d8dc68f61dc01b576593dd65c591ddd62d4b"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_20_00_00_hair_acot_83ec10_opacity",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_20_00_00_hair_acot_83ec10_opacity.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_20_00_00_hair_acot_83ec10_opacity.T_ch0100_20_00_00_hair_acot_83ec10_opacity",
+      "sha256_before": "fc75f8eee53ca17b6ad3d6c5a3a788dc9dc3fdf4d28a3f6c9c8a6faccee4478d",
+      "sha256_after": "fc75f8eee53ca17b6ad3d6c5a3a788dc9dc3fdf4d28a3f6c9c8a6faccee4478d"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_20_00_00_hair_albs_3fb352",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_20_00_00_hair_albs_3fb352.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_20_00_00_hair_albs_3fb352.T_ch0100_20_00_00_hair_albs_3fb352",
+      "sha256_before": "63c517df2bfb5e9c449b6dab82d6c322265b7d7e5bfa4e05e773a5cd826085a7",
+      "sha256_after": "63c517df2bfb5e9c449b6dab82d6c322265b7d7e5bfa4e05e773a5cd826085a7"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_20_00_00_hair_nrmr_2322aa_normal",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_20_00_00_hair_nrmr_2322aa_normal.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_20_00_00_hair_nrmr_2322aa_normal.T_ch0100_20_00_00_hair_nrmr_2322aa_normal",
+      "sha256_before": "d159267cddaef000af973d979beb9c9604d3df9f5ae9d3619ec152e15f97b176",
+      "sha256_after": "d159267cddaef000af973d979beb9c9604d3df9f5ae9d3619ec152e15f97b176"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_20_00_00_hair_nrmr_2322aa_roughness",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_20_00_00_hair_nrmr_2322aa_roughness.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_20_00_00_hair_nrmr_2322aa_roughness.T_ch0100_20_00_00_hair_nrmr_2322aa_roughness",
+      "sha256_before": "585237515318cf589627eb911741fb09a5ae6802de19431b5e5ea8e2f3cdf4cd",
+      "sha256_after": "585237515318cf589627eb911741fb09a5ae6802de19431b5e5ea8e2f3cdf4cd"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_40_00_props_acot_5ebaf0_occlusion",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_40_00_props_acot_5ebaf0_occlusion.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_40_00_props_acot_5ebaf0_occlusion.T_ch0100_40_00_props_acot_5ebaf0_occlusion",
+      "sha256_before": "6fe90af75695d4d7d347423cc2357ef08e480c1243e0d2d159f97985060d9ba3",
+      "sha256_after": "6fe90af75695d4d7d347423cc2357ef08e480c1243e0d2d159f97985060d9ba3"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_40_00_props_albd_2f23e7",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_40_00_props_albd_2f23e7.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_40_00_props_albd_2f23e7.T_ch0100_40_00_props_albd_2f23e7",
+      "sha256_before": "232722c734ae65dd2a1e451356e233d31bb81d8aec796af05616a4698ecce5d0",
+      "sha256_after": "232722c734ae65dd2a1e451356e233d31bb81d8aec796af05616a4698ecce5d0"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_40_00_props_albd_2f23e7_metallic",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_40_00_props_albd_2f23e7_metallic.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_40_00_props_albd_2f23e7_metallic.T_ch0100_40_00_props_albd_2f23e7_metallic",
+      "sha256_before": "0460a3e9aeedda3c5e6c13f29d894eb7d538e8fab71659b16c8a62ffb1780c26",
+      "sha256_after": "0460a3e9aeedda3c5e6c13f29d894eb7d538e8fab71659b16c8a62ffb1780c26"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_40_00_props_nrmr_9f070d_normal",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_40_00_props_nrmr_9f070d_normal.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_40_00_props_nrmr_9f070d_normal.T_ch0100_40_00_props_nrmr_9f070d_normal",
+      "sha256_before": "50833c4367cff57cd1881e7b39cf708af29b847ab0d18bdc00c2ebee9d04d63c",
+      "sha256_after": "50833c4367cff57cd1881e7b39cf708af29b847ab0d18bdc00c2ebee9d04d63c"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_40_00_props_nrmr_9f070d_roughness",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_40_00_props_nrmr_9f070d_roughness.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_40_00_props_nrmr_9f070d_roughness.T_ch0100_40_00_props_nrmr_9f070d_roughness",
+      "sha256_before": "ed721c0a0254a3ada5bf3ba74595ec47626b496841b37fa99f5a1d0ebf3b301f",
+      "sha256_after": "ed721c0a0254a3ada5bf3ba74595ec47626b496841b37fa99f5a1d0ebf3b301f"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_40_00_requiemholster_acot_c0e4e9_occlusion",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_40_00_requiemholster_acot_c0e4e9_occlusion.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_40_00_requiemholster_acot_c0e4e9_occlusion.T_ch0100_40_00_requiemholster_acot_c0e4e9_occlusion",
+      "sha256_before": "81788b7b85107f990b4ff6fe01147a211ed9424cfb4eabee8af2ccb366f10168",
+      "sha256_after": "81788b7b85107f990b4ff6fe01147a211ed9424cfb4eabee8af2ccb366f10168"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_40_00_requiemholster_albd_faeec6",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_40_00_requiemholster_albd_faeec6.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_40_00_requiemholster_albd_faeec6.T_ch0100_40_00_requiemholster_albd_faeec6",
+      "sha256_before": "351ca698495bf2944ea55c1b657fdd997d263c1478c0deac218523960105fb48",
+      "sha256_after": "351ca698495bf2944ea55c1b657fdd997d263c1478c0deac218523960105fb48"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_40_00_requiemholster_albd_faeec6_metallic",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_40_00_requiemholster_albd_faeec6_metallic.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_40_00_requiemholster_albd_faeec6_metallic.T_ch0100_40_00_requiemholster_albd_faeec6_metallic",
+      "sha256_before": "30fe082fb95082fbba9835fcad3c11938fba5e68fe2fb1f6b124ab7fddc03b87",
+      "sha256_after": "30fe082fb95082fbba9835fcad3c11938fba5e68fe2fb1f6b124ab7fddc03b87"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_40_00_requiemholster_nrmr_1ff8c0_normal",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_40_00_requiemholster_nrmr_1ff8c0_normal.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_40_00_requiemholster_nrmr_1ff8c0_normal.T_ch0100_40_00_requiemholster_nrmr_1ff8c0_normal",
+      "sha256_before": "aabf0fa09131567c216842b51d7bd732c195fd02960c33bad6e59e5107c7d68d",
+      "sha256_after": "aabf0fa09131567c216842b51d7bd732c195fd02960c33bad6e59e5107c7d68d"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_40_00_requiemholster_nrmr_1ff8c0_roughness",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_40_00_requiemholster_nrmr_1ff8c0_roughness.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_40_00_requiemholster_nrmr_1ff8c0_roughness.T_ch0100_40_00_requiemholster_nrmr_1ff8c0_roughness",
+      "sha256_before": "6fc7344fe7f79812660747eb16388c23bb212f0108596f28e61fde6efe7072dd",
+      "sha256_after": "6fc7344fe7f79812660747eb16388c23bb212f0108596f28e61fde6efe7072dd"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_40_00_shirt_acot_ecab05_occlusion",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_40_00_shirt_acot_ecab05_occlusion.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_40_00_shirt_acot_ecab05_occlusion.T_ch0100_40_00_shirt_acot_ecab05_occlusion",
+      "sha256_before": "ebc9873fd5a1c04babfbf36922592bb0e340691d19d37c87ebd9dafe58795948",
+      "sha256_after": "ebc9873fd5a1c04babfbf36922592bb0e340691d19d37c87ebd9dafe58795948"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_40_00_shirt_albd_7d1848",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_40_00_shirt_albd_7d1848.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_40_00_shirt_albd_7d1848.T_ch0100_40_00_shirt_albd_7d1848",
+      "sha256_before": "40bd8d3536b54072efcce487c028beec113751fc7e23f67fa29685073809adb7",
+      "sha256_after": "40bd8d3536b54072efcce487c028beec113751fc7e23f67fa29685073809adb7"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_40_00_shirt_albd_7d1848_metallic",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_40_00_shirt_albd_7d1848_metallic.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_40_00_shirt_albd_7d1848_metallic.T_ch0100_40_00_shirt_albd_7d1848_metallic",
+      "sha256_before": "86b7cc7bf528bd6c7c8bdb55e635701156087c88431d7754c1570f9b1c882b5f",
+      "sha256_after": "86b7cc7bf528bd6c7c8bdb55e635701156087c88431d7754c1570f9b1c882b5f"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_40_00_shirt_nrmr_dd2c67_normal",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_40_00_shirt_nrmr_dd2c67_normal.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_40_00_shirt_nrmr_dd2c67_normal.T_ch0100_40_00_shirt_nrmr_dd2c67_normal",
+      "sha256_before": "d57ec8874953cd223e8cea38cdcf5fc5a19d890c8f987b06c434481451992789",
+      "sha256_after": "d57ec8874953cd223e8cea38cdcf5fc5a19d890c8f987b06c434481451992789"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_40_00_shirt_nrmr_dd2c67_roughness",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_40_00_shirt_nrmr_dd2c67_roughness.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_40_00_shirt_nrmr_dd2c67_roughness.T_ch0100_40_00_shirt_nrmr_dd2c67_roughness",
+      "sha256_before": "05b93a2185f37cb6c5cf23e8f930da437073f0476d5d90be569c959e02190ffd",
+      "sha256_after": "05b93a2185f37cb6c5cf23e8f930da437073f0476d5d90be569c959e02190ffd"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_40_00_tacticalvest_acot_9216fe_occlusion",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_40_00_tacticalvest_acot_9216fe_occlusion.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_40_00_tacticalvest_acot_9216fe_occlusion.T_ch0100_40_00_tacticalvest_acot_9216fe_occlusion",
+      "sha256_before": "c8a0e10b9fb4c4f9ad0e8cd4e4b1dcd3c56c2d49811da1cfe4d805325550ebbb",
+      "sha256_after": "c8a0e10b9fb4c4f9ad0e8cd4e4b1dcd3c56c2d49811da1cfe4d805325550ebbb"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_40_00_tacticalvest_albd_dda5e1",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_40_00_tacticalvest_albd_dda5e1.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_40_00_tacticalvest_albd_dda5e1.T_ch0100_40_00_tacticalvest_albd_dda5e1",
+      "sha256_before": "0377744b1fd32846fb5f1cba2a5054022a86039cfdccba6c92be1d9dbd1d89f3",
+      "sha256_after": "0377744b1fd32846fb5f1cba2a5054022a86039cfdccba6c92be1d9dbd1d89f3"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_40_00_tacticalvest_albd_dda5e1_metallic",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_40_00_tacticalvest_albd_dda5e1_metallic.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_40_00_tacticalvest_albd_dda5e1_metallic.T_ch0100_40_00_tacticalvest_albd_dda5e1_metallic",
+      "sha256_before": "64d33f2bfe6d72eb60581407f081b3ea940912cc458ad7dd89b5cbc2c02ec834",
+      "sha256_after": "64d33f2bfe6d72eb60581407f081b3ea940912cc458ad7dd89b5cbc2c02ec834"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_40_00_tacticalvest_nrmr_340b09_normal",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_40_00_tacticalvest_nrmr_340b09_normal.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_40_00_tacticalvest_nrmr_340b09_normal.T_ch0100_40_00_tacticalvest_nrmr_340b09_normal",
+      "sha256_before": "146ea1aaa1a993a511e60c4d72c7d99a26ef25838c3d57df69a49f69216b48d1",
+      "sha256_after": "146ea1aaa1a993a511e60c4d72c7d99a26ef25838c3d57df69a49f69216b48d1"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_40_00_tacticalvest_nrmr_340b09_roughness",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_40_00_tacticalvest_nrmr_340b09_roughness.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_40_00_tacticalvest_nrmr_340b09_roughness.T_ch0100_40_00_tacticalvest_nrmr_340b09_roughness",
+      "sha256_before": "4bc6d19141a045a2c98a5815c5319e1bada2b58d7080f169e5247a7783f819c6",
+      "sha256_after": "4bc6d19141a045a2c98a5815c5319e1bada2b58d7080f169e5247a7783f819c6"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_44_armor_acot_fa2065_occlusion",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_44_armor_acot_fa2065_occlusion.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_44_armor_acot_fa2065_occlusion.T_ch0100_44_armor_acot_fa2065_occlusion",
+      "sha256_before": "21fa279cbc7d609aa9031fb65116a03c60711c49d496d0f5b91012309ee93c1b",
+      "sha256_after": "21fa279cbc7d609aa9031fb65116a03c60711c49d496d0f5b91012309ee93c1b"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_44_armor_albd_fe72e5",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_44_armor_albd_fe72e5.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_44_armor_albd_fe72e5.T_ch0100_44_armor_albd_fe72e5",
+      "sha256_before": "5247a4c1d61344ec5c2c33bd6386d1f95452cf372692433931e9d37a760dd3d6",
+      "sha256_after": "5247a4c1d61344ec5c2c33bd6386d1f95452cf372692433931e9d37a760dd3d6"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_44_armor_albd_fe72e5_metallic",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_44_armor_albd_fe72e5_metallic.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_44_armor_albd_fe72e5_metallic.T_ch0100_44_armor_albd_fe72e5_metallic",
+      "sha256_before": "71aee673ff87bea53a6086c8b9f36824601ce45ba53380344c2b9c79350d3cde",
+      "sha256_after": "71aee673ff87bea53a6086c8b9f36824601ce45ba53380344c2b9c79350d3cde"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_44_armor_nrmr_5d6c9d_normal",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_44_armor_nrmr_5d6c9d_normal.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_44_armor_nrmr_5d6c9d_normal.T_ch0100_44_armor_nrmr_5d6c9d_normal",
+      "sha256_before": "932eddb00a1fc37170ea5035e0a49d947bbcfa965ab4693968e94ed3d5dfdf5f",
+      "sha256_after": "932eddb00a1fc37170ea5035e0a49d947bbcfa965ab4693968e94ed3d5dfdf5f"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_44_armor_nrmr_5d6c9d_roughness",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_44_armor_nrmr_5d6c9d_roughness.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_44_armor_nrmr_5d6c9d_roughness.T_ch0100_44_armor_nrmr_5d6c9d_roughness",
+      "sha256_before": "2512891e795503ad19d5bf22b9a054c2a534bf33cce49c291255dbe666c3a083",
+      "sha256_after": "2512891e795503ad19d5bf22b9a054c2a534bf33cce49c291255dbe666c3a083"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_45_jacket_acot_e0560a_occlusion",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_45_jacket_acot_e0560a_occlusion.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_45_jacket_acot_e0560a_occlusion.T_ch0100_45_jacket_acot_e0560a_occlusion",
+      "sha256_before": "7169151b0d2500733f7d106bc75a37861ae6ceee96a3949c26d5d5be450724fa",
+      "sha256_after": "7169151b0d2500733f7d106bc75a37861ae6ceee96a3949c26d5d5be450724fa"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_45_jacket_acot_e0560a_opacity",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_45_jacket_acot_e0560a_opacity.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_45_jacket_acot_e0560a_opacity.T_ch0100_45_jacket_acot_e0560a_opacity",
+      "sha256_before": "f4971b9941fee60ec516768dbe4402b3ac0340dd46d91c373b1fb61d8e658907",
+      "sha256_after": "f4971b9941fee60ec516768dbe4402b3ac0340dd46d91c373b1fb61d8e658907"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_45_jacket_albd_ff9809",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_45_jacket_albd_ff9809.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_45_jacket_albd_ff9809.T_ch0100_45_jacket_albd_ff9809",
+      "sha256_before": "b423fff19f4e2af1877dc762613bb5ba641bbb3d973fada198ab143f1bca708d",
+      "sha256_after": "b423fff19f4e2af1877dc762613bb5ba641bbb3d973fada198ab143f1bca708d"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_45_jacket_albd_ff9809_metallic",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_45_jacket_albd_ff9809_metallic.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_45_jacket_albd_ff9809_metallic.T_ch0100_45_jacket_albd_ff9809_metallic",
+      "sha256_before": "776e74a4001edb80217dfbf6e54f157d85b17c25ca58d4f9730ac61cc6496e33",
+      "sha256_after": "776e74a4001edb80217dfbf6e54f157d85b17c25ca58d4f9730ac61cc6496e33"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_45_jacket_nrmr_98ce2b_normal",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_45_jacket_nrmr_98ce2b_normal.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_45_jacket_nrmr_98ce2b_normal.T_ch0100_45_jacket_nrmr_98ce2b_normal",
+      "sha256_before": "4156943f4e6b6af27aa36f9a9fc7aba603854a3afb6cb8121f4749628950f8da",
+      "sha256_after": "4156943f4e6b6af27aa36f9a9fc7aba603854a3afb6cb8121f4749628950f8da"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_45_jacket_nrmr_98ce2b_roughness",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_45_jacket_nrmr_98ce2b_roughness.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_45_jacket_nrmr_98ce2b_roughness.T_ch0100_45_jacket_nrmr_98ce2b_roughness",
+      "sha256_before": "4ebf91cc5034f92f0df5030b26ab3aed3e7f0c57d5e5d4f88adbd8fa60b2000f",
+      "sha256_after": "4ebf91cc5034f92f0df5030b26ab3aed3e7f0c57d5e5d4f88adbd8fa60b2000f"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_50_00_props_acot_24e5ef_occlusion",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_50_00_props_acot_24e5ef_occlusion.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_50_00_props_acot_24e5ef_occlusion.T_ch0100_50_00_props_acot_24e5ef_occlusion",
+      "sha256_before": "160e06df5e27b096a712a704db74d676d37246cd43b8b379f8204f6dab752633",
+      "sha256_after": "160e06df5e27b096a712a704db74d676d37246cd43b8b379f8204f6dab752633"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_50_00_props_albd_f3f7e2",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_50_00_props_albd_f3f7e2.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_50_00_props_albd_f3f7e2.T_ch0100_50_00_props_albd_f3f7e2",
+      "sha256_before": "612c239378293a1e9992e241b664e256ea2a15d058cfa7740e9b6a0e7643d10c",
+      "sha256_after": "612c239378293a1e9992e241b664e256ea2a15d058cfa7740e9b6a0e7643d10c"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_50_00_props_albd_f3f7e2_metallic",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_50_00_props_albd_f3f7e2_metallic.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_50_00_props_albd_f3f7e2_metallic.T_ch0100_50_00_props_albd_f3f7e2_metallic",
+      "sha256_before": "17202eab5d3276c360015b378c12cdd68f15664474e7e71beee0670079ab3a24",
+      "sha256_after": "17202eab5d3276c360015b378c12cdd68f15664474e7e71beee0670079ab3a24"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_50_00_props_b_acot_a4615d_occlusion",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_50_00_props_b_acot_a4615d_occlusion.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_50_00_props_b_acot_a4615d_occlusion.T_ch0100_50_00_props_b_acot_a4615d_occlusion",
+      "sha256_before": "dbf92a077676f8ef46666751d18b73d8b1af3c7c1606dac901cac52ed3ea7879",
+      "sha256_after": "dbf92a077676f8ef46666751d18b73d8b1af3c7c1606dac901cac52ed3ea7879"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_50_00_props_b_albd_bee09c",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_50_00_props_b_albd_bee09c.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_50_00_props_b_albd_bee09c.T_ch0100_50_00_props_b_albd_bee09c",
+      "sha256_before": "2fed9fe33ad3b7fb3f40b00f343ddb9721acf584a485f1c08ecbda56b303d0e8",
+      "sha256_after": "2fed9fe33ad3b7fb3f40b00f343ddb9721acf584a485f1c08ecbda56b303d0e8"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_50_00_props_b_albd_bee09c_metallic",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_50_00_props_b_albd_bee09c_metallic.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_50_00_props_b_albd_bee09c_metallic.T_ch0100_50_00_props_b_albd_bee09c_metallic",
+      "sha256_before": "af46cf153cd109d4784fa67b7d11149cc7454976049f687ffd4fbdc2cae7ea3b",
+      "sha256_after": "af46cf153cd109d4784fa67b7d11149cc7454976049f687ffd4fbdc2cae7ea3b"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_50_00_props_b_nrmr_c0f32f_normal",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_50_00_props_b_nrmr_c0f32f_normal.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_50_00_props_b_nrmr_c0f32f_normal.T_ch0100_50_00_props_b_nrmr_c0f32f_normal",
+      "sha256_before": "ed5fff974cc91b9486f6d52fc935af8cc794833935ce7574485df035ddf58c21",
+      "sha256_after": "ed5fff974cc91b9486f6d52fc935af8cc794833935ce7574485df035ddf58c21"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_50_00_props_b_nrmr_c0f32f_roughness",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_50_00_props_b_nrmr_c0f32f_roughness.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_50_00_props_b_nrmr_c0f32f_roughness.T_ch0100_50_00_props_b_nrmr_c0f32f_roughness",
+      "sha256_before": "f39fd7c4bddcd8c507211b178c4981dc0c2c675732a7b4c3a3332a462c00d73a",
+      "sha256_after": "f39fd7c4bddcd8c507211b178c4981dc0c2c675732a7b4c3a3332a462c00d73a"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_50_00_props_nrmr_0a1fa6_normal",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_50_00_props_nrmr_0a1fa6_normal.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_50_00_props_nrmr_0a1fa6_normal.T_ch0100_50_00_props_nrmr_0a1fa6_normal",
+      "sha256_before": "9b287e58bed36407500842e4c92812e4562cfbccd867b1d08072175952b21561",
+      "sha256_after": "9b287e58bed36407500842e4c92812e4562cfbccd867b1d08072175952b21561"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_50_00_props_nrmr_0a1fa6_roughness",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_50_00_props_nrmr_0a1fa6_roughness.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_50_00_props_nrmr_0a1fa6_roughness.T_ch0100_50_00_props_nrmr_0a1fa6_roughness",
+      "sha256_before": "7eac8451058fa7192a6f66940c2b9590787fb6053c8f3b316812ffd83e9ad045",
+      "sha256_after": "7eac8451058fa7192a6f66940c2b9590787fb6053c8f3b316812ffd83e9ad045"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_50_lowerbody_acot_95fba6_occlusion",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_50_lowerbody_acot_95fba6_occlusion.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_50_lowerbody_acot_95fba6_occlusion.T_ch0100_50_lowerbody_acot_95fba6_occlusion",
+      "sha256_before": "4407009cd5098bea8c483e77844c69080b34cb8c6ef610633887bd9b6981f1b6",
+      "sha256_after": "4407009cd5098bea8c483e77844c69080b34cb8c6ef610633887bd9b6981f1b6"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_50_lowerbody_albd_9733f2",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_50_lowerbody_albd_9733f2.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_50_lowerbody_albd_9733f2.T_ch0100_50_lowerbody_albd_9733f2",
+      "sha256_before": "01d55bdac56c19ffd6778a96019a7a33cefbf4980346351af0872c884ea3ef54",
+      "sha256_after": "01d55bdac56c19ffd6778a96019a7a33cefbf4980346351af0872c884ea3ef54"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_50_lowerbody_albd_9733f2_metallic",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_50_lowerbody_albd_9733f2_metallic.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_50_lowerbody_albd_9733f2_metallic.T_ch0100_50_lowerbody_albd_9733f2_metallic",
+      "sha256_before": "7dc08ce1602694fa87ac7f542850eda11e39b625805a7cbbee19b8f8cddd4025",
+      "sha256_after": "7dc08ce1602694fa87ac7f542850eda11e39b625805a7cbbee19b8f8cddd4025"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_50_lowerbody_nrmr_771999_normal",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_50_lowerbody_nrmr_771999_normal.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_50_lowerbody_nrmr_771999_normal.T_ch0100_50_lowerbody_nrmr_771999_normal",
+      "sha256_before": "37900c9462db36f42a29d687d707d3f346f3e21a2069952a9d1700a5627826ee",
+      "sha256_after": "37900c9462db36f42a29d687d707d3f346f3e21a2069952a9d1700a5627826ee"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_ch0100_50_lowerbody_nrmr_771999_roughness",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_ch0100_50_lowerbody_nrmr_771999_roughness.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_ch0100_50_lowerbody_nrmr_771999_roughness.T_ch0100_50_lowerbody_nrmr_771999_roughness",
+      "sha256_before": "de222d8c0a1e265d8b585d86a82338e736f08741f999b2d2b0738ab1ad2a44ee",
+      "sha256_after": "de222d8c0a1e265d8b585d86a82338e736f08741f999b2d2b0738ab1ad2a44ee"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_iris_type1_alb_f0cae5",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_iris_type1_alb_f0cae5.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_iris_type1_alb_f0cae5.T_iris_type1_alb_f0cae5",
+      "sha256_before": "3f7d50df6fc04e704ee72891ae45afcc9bcf5aeedad7ab084fa735dc91e56ea2",
+      "sha256_after": "3f7d50df6fc04e704ee72891ae45afcc9bcf5aeedad7ab084fa735dc91e56ea2"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_iris_type1_nrm_4bda7c",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_iris_type1_nrm_4bda7c.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_iris_type1_nrm_4bda7c.T_iris_type1_nrm_4bda7c",
+      "sha256_before": "d7bffb99082b27b28b19c27ddc1351bda8fb82818350eefc880ebdf283b2befd",
+      "sha256_after": "d7bffb99082b27b28b19c27ddc1351bda8fb82818350eefc880ebdf283b2befd"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_leon_black",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_leon_black.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_leon_black.T_leon_black",
+      "sha256_before": "cd54ae4be088f855b104df627bfa735c066b51f6beaf76833f637c13be9a6903",
+      "sha256_after": "cd54ae4be088f855b104df627bfa735c066b51f6beaf76833f637c13be9a6903"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_leon_eye_combined",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_leon_eye_combined.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_leon_eye_combined.T_leon_eye_combined",
+      "sha256_before": "c2d34888e28cec10dd70c32608991cb5a9f1d5da7aa953639b0d1307854aa405",
+      "sha256_after": "c2d34888e28cec10dd70c32608991cb5a9f1d5da7aa953639b0d1307854aa405"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_leon_flatnormal",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_leon_flatnormal.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_leon_flatnormal.T_leon_flatnormal",
+      "sha256_before": "ccf4b3e84b5f7f9db333a4d73752fc030bc1afdaefcdad45e164931005cb2cf9",
+      "sha256_after": "ccf4b3e84b5f7f9db333a4d73752fc030bc1afdaefcdad45e164931005cb2cf9"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_leon_white",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_leon_white.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_leon_white.T_leon_white",
+      "sha256_before": "33da23142ff196b9e575e0ff1d557f1a84d3777caf14ad2ef7378bdda311a306",
+      "sha256_after": "33da23142ff196b9e575e0ff1d557f1a84d3777caf14ad2ef7378bdda311a306"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_leon_white_color",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_leon_white_color.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_leon_white_color.T_leon_white_color",
+      "sha256_before": "bbd05991ea64e6cf0a017922964d61a45062c3cf89392037edfb4b1021be7390",
+      "sha256_after": "bbd05991ea64e6cf0a017922964d61a45062c3cf89392037edfb4b1021be7390"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_nullnormalroughness_448882_normal",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_nullnormalroughness_448882_normal.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_nullnormalroughness_448882_normal.T_nullnormalroughness_448882_normal",
+      "sha256_before": "5463f0426281a7fe8b98403084c85165133a74e06e80ac8c53411ce6e3278d05",
+      "sha256_after": "5463f0426281a7fe8b98403084c85165133a74e06e80ac8c53411ce6e3278d05"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_nullnormalroughness_448882_roughness",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_nullnormalroughness_448882_roughness.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_nullnormalroughness_448882_roughness.T_nullnormalroughness_448882_roughness",
+      "sha256_before": "fbbd0392e4a59a180436d1bddbc71b0ea1e4c9bd4857d580374ef6b798e44c7d",
+      "sha256_after": "fbbd0392e4a59a180436d1bddbc71b0ea1e4c9bd4857d580374ef6b798e44c7d"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_nullnormalroughnessocclusion_65c2a6_normal",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_nullnormalroughnessocclusion_65c2a6_normal.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_nullnormalroughnessocclusion_65c2a6_normal.T_nullnormalroughnessocclusion_65c2a6_normal",
+      "sha256_before": "331dc0cc7b964058c55da4f4d990815ff8e58bfd31fb671a476fb413cb41d874",
+      "sha256_after": "331dc0cc7b964058c55da4f4d990815ff8e58bfd31fb671a476fb413cb41d874"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_nullnormalroughnessocclusion_65c2a6_roughness",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_nullnormalroughnessocclusion_65c2a6_roughness.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_nullnormalroughnessocclusion_65c2a6_roughness.T_nullnormalroughnessocclusion_65c2a6_roughness",
+      "sha256_before": "b4455871ba642dc39d2c2e0d257088b487c57175d3a8df7bd47bcc3800093e51",
+      "sha256_after": "b4455871ba642dc39d2c2e0d257088b487c57175d3a8df7bd47bcc3800093e51"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_parts_human_eyebrow00_albs_c758da",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_parts_human_eyebrow00_albs_c758da.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_parts_human_eyebrow00_albs_c758da.T_parts_human_eyebrow00_albs_c758da",
+      "sha256_before": "3a3ec8d2de9a7abbccc8020491d6a1d9297f5835c233069490442746d2bcdc87",
+      "sha256_after": "3a3ec8d2de9a7abbccc8020491d6a1d9297f5835c233069490442746d2bcdc87"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_parts_human_mouth01_albd_3e119c",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_parts_human_mouth01_albd_3e119c.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_parts_human_mouth01_albd_3e119c.T_parts_human_mouth01_albd_3e119c",
+      "sha256_before": "48311899bb7342652b2cbc69839532513ac4b0bee0eb7016f84c7751df5aa9bc",
+      "sha256_after": "48311899bb7342652b2cbc69839532513ac4b0bee0eb7016f84c7751df5aa9bc"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_parts_human_mouth01_albd_3e119c_metallic",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_parts_human_mouth01_albd_3e119c_metallic.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_parts_human_mouth01_albd_3e119c_metallic.T_parts_human_mouth01_albd_3e119c_metallic",
+      "sha256_before": "5274a300489e6464d42b6716ff58e5f04aca5af8bb66e45c942188cd903abe0c",
+      "sha256_after": "5274a300489e6464d42b6716ff58e5f04aca5af8bb66e45c942188cd903abe0c"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_parts_human_mouth01_nrmr_ce74c3_normal",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_parts_human_mouth01_nrmr_ce74c3_normal.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_parts_human_mouth01_nrmr_ce74c3_normal.T_parts_human_mouth01_nrmr_ce74c3_normal",
+      "sha256_before": "d6d90dc1355cb2675f40f9d662f4e7f9c15e6217225aaf317d84336b45065029",
+      "sha256_after": "d6d90dc1355cb2675f40f9d662f4e7f9c15e6217225aaf317d84336b45065029"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_parts_human_mouth01_nrmr_ce74c3_roughness",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_parts_human_mouth01_nrmr_ce74c3_roughness.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_parts_human_mouth01_nrmr_ce74c3_roughness.T_parts_human_mouth01_nrmr_ce74c3_roughness",
+      "sha256_before": "06081f525ed63813ed45e4461fe4400bfa6cd93677a808f6c36c35c00d2fbbdf",
+      "sha256_after": "06081f525ed63813ed45e4461fe4400bfa6cd93677a808f6c36c35c00d2fbbdf"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_parts_human_mouth01_scot_e77646_occlusion",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_parts_human_mouth01_scot_e77646_occlusion.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_parts_human_mouth01_scot_e77646_occlusion.T_parts_human_mouth01_scot_e77646_occlusion",
+      "sha256_before": "9a85594e2dc557ec50eb926137f45b3972463b7360c6aca9ccfe69f53fe3e388",
+      "sha256_after": "9a85594e2dc557ec50eb926137f45b3972463b7360c6aca9ccfe69f53fe3e388"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_watchbelt_acot_491c32_occlusion",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_watchbelt_acot_491c32_occlusion.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_watchbelt_acot_491c32_occlusion.T_watchbelt_acot_491c32_occlusion",
+      "sha256_before": "9ff0c34e85c5f2a8eea3a0e89b107bc8e6bdfdea7c99005861f8c78e777c7789",
+      "sha256_after": "9ff0c34e85c5f2a8eea3a0e89b107bc8e6bdfdea7c99005861f8c78e777c7789"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_watchbelt_albd_889b82",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_watchbelt_albd_889b82.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_watchbelt_albd_889b82.T_watchbelt_albd_889b82",
+      "sha256_before": "c2393889df55bc0dd6113a1dbf757e84813638ac7f351d415a93ec53aefc886b",
+      "sha256_after": "c2393889df55bc0dd6113a1dbf757e84813638ac7f351d415a93ec53aefc886b"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_watchbelt_albd_889b82_metallic",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_watchbelt_albd_889b82_metallic.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_watchbelt_albd_889b82_metallic.T_watchbelt_albd_889b82_metallic",
+      "sha256_before": "222284ca1b61965028b648a4587db1feb5fd4b84433af67855df47d776d22815",
+      "sha256_after": "222284ca1b61965028b648a4587db1feb5fd4b84433af67855df47d776d22815"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_watchbelt_nrmr_1d030c_normal",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_watchbelt_nrmr_1d030c_normal.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_watchbelt_nrmr_1d030c_normal.T_watchbelt_nrmr_1d030c_normal",
+      "sha256_before": "466cba5bf500acf90b95b3f1273f879c6d5dcc49c81233d41d440a0dff277948",
+      "sha256_after": "466cba5bf500acf90b95b3f1273f879c6d5dcc49c81233d41d440a0dff277948"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_watchbelt_nrmr_1d030c_roughness",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_watchbelt_nrmr_1d030c_roughness.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_watchbelt_nrmr_1d030c_roughness.T_watchbelt_nrmr_1d030c_roughness",
+      "sha256_before": "3e47a90202854c240e987f788d380e484a28abfd4c476bace23d4839057d4c3d",
+      "sha256_after": "3e47a90202854c240e987f788d380e484a28abfd4c476bace23d4839057d4c3d"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_watchbody_acot_81bb54_occlusion",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_watchbody_acot_81bb54_occlusion.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_watchbody_acot_81bb54_occlusion.T_watchbody_acot_81bb54_occlusion",
+      "sha256_before": "8df2c650ab85a9f602d97207a79027dbbf43a8f114ceec82114bafbeee4542a0",
+      "sha256_after": "8df2c650ab85a9f602d97207a79027dbbf43a8f114ceec82114bafbeee4542a0"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_watchbody_albd_56cc8d",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_watchbody_albd_56cc8d.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_watchbody_albd_56cc8d.T_watchbody_albd_56cc8d",
+      "sha256_before": "a4b9d1c3d4241e0c5617a47d5c1f907d6690498663f76c44e9ca0e8dd50aee8a",
+      "sha256_after": "a4b9d1c3d4241e0c5617a47d5c1f907d6690498663f76c44e9ca0e8dd50aee8a"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_watchbody_albd_56cc8d_metallic",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_watchbody_albd_56cc8d_metallic.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_watchbody_albd_56cc8d_metallic.T_watchbody_albd_56cc8d_metallic",
+      "sha256_before": "e9dd5e0e45a1248e4845d767d9cba47bcaef2396fe865dc4397d42f5dd5c889d",
+      "sha256_after": "e9dd5e0e45a1248e4845d767d9cba47bcaef2396fe865dc4397d42f5dd5c889d"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_watchbody_nrmr_5880ed_normal",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_watchbody_nrmr_5880ed_normal.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_watchbody_nrmr_5880ed_normal.T_watchbody_nrmr_5880ed_normal",
+      "sha256_before": "f41e036898dc8550d10c7248892973e73ccd81077ad73ffe3b9a1c23133b4956",
+      "sha256_after": "f41e036898dc8550d10c7248892973e73ccd81077ad73ffe3b9a1c23133b4956"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_watchbody_nrmr_5880ed_roughness",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_watchbody_nrmr_5880ed_roughness.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_watchbody_nrmr_5880ed_roughness.T_watchbody_nrmr_5880ed_roughness",
+      "sha256_before": "78477ef0f3a4c676dd4e47967710ff90b323f371690f741fd707a086277abab8",
+      "sha256_after": "78477ef0f3a4c676dd4e47967710ff90b323f371690f741fd707a086277abab8"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_watchdial_acot_d14b2a_occlusion",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_watchdial_acot_d14b2a_occlusion.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_watchdial_acot_d14b2a_occlusion.T_watchdial_acot_d14b2a_occlusion",
+      "sha256_before": "440713b4079716a6975150466f78a01d5053996610883fd209ab26c4f54eacef",
+      "sha256_after": "440713b4079716a6975150466f78a01d5053996610883fd209ab26c4f54eacef"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_watchdial_albd_d60a71",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_watchdial_albd_d60a71.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_watchdial_albd_d60a71.T_watchdial_albd_d60a71",
+      "sha256_before": "4c82f5991566db943717983cd06f086b12bc1aaea92818cdbc8489dbcb3a669a",
+      "sha256_after": "4c82f5991566db943717983cd06f086b12bc1aaea92818cdbc8489dbcb3a669a"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_watchdial_albd_d60a71_metallic",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_watchdial_albd_d60a71_metallic.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_watchdial_albd_d60a71_metallic.T_watchdial_albd_d60a71_metallic",
+      "sha256_before": "3f4610ff7647b824a25d7e4d93185361af07f00ace06f8fc123bd04b16f25398",
+      "sha256_after": "3f4610ff7647b824a25d7e4d93185361af07f00ace06f8fc123bd04b16f25398"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_watchdial_nrmr_41bd92_normal",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_watchdial_nrmr_41bd92_normal.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_watchdial_nrmr_41bd92_normal.T_watchdial_nrmr_41bd92_normal",
+      "sha256_before": "f8b5e0f030dfe7463c6dd2f8ccbe2b0e54756e052d18392f0117f93fbae96008",
+      "sha256_after": "f8b5e0f030dfe7463c6dd2f8ccbe2b0e54756e052d18392f0117f93fbae96008"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_watchdial_nrmr_41bd92_roughness",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_watchdial_nrmr_41bd92_roughness.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_watchdial_nrmr_41bd92_roughness.T_watchdial_nrmr_41bd92_roughness",
+      "sha256_before": "c73b99ce68015c121b3a21ebdee44d5d38d896571dc39b727ba4652605284f71",
+      "sha256_after": "c73b99ce68015c121b3a21ebdee44d5d38d896571dc39b727ba4652605284f71"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_watchglass_albd_1f7f83",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_watchglass_albd_1f7f83.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_watchglass_albd_1f7f83.T_watchglass_albd_1f7f83",
+      "sha256_before": "6621c593f056896f324b091487136049ddccd943a000e18555c4f2ae53cbf638",
+      "sha256_after": "6621c593f056896f324b091487136049ddccd943a000e18555c4f2ae53cbf638"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_watchglass_albd_1f7f83_metallic",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_watchglass_albd_1f7f83_metallic.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_watchglass_albd_1f7f83_metallic.T_watchglass_albd_1f7f83_metallic",
+      "sha256_before": "0989b54297bf9df71f09d2423776060ec34ac35411484311a23b9fb950508d65",
+      "sha256_after": "0989b54297bf9df71f09d2423776060ec34ac35411484311a23b9fb950508d65"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_watchglass_nrmr_2cfff1_normal",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_watchglass_nrmr_2cfff1_normal.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_watchglass_nrmr_2cfff1_normal.T_watchglass_nrmr_2cfff1_normal",
+      "sha256_before": "f40f07e363358775852607d79b8af15d08e89c90ff369ff51b3da6d27af39a2b",
+      "sha256_after": "f40f07e363358775852607d79b8af15d08e89c90ff369ff51b3da6d27af39a2b"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_watchglass_nrmr_2cfff1_roughness",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_watchglass_nrmr_2cfff1_roughness.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_watchglass_nrmr_2cfff1_roughness.T_watchglass_nrmr_2cfff1_roughness",
+      "sha256_before": "c95c3a84123d54ff2ad0a49f8eacc65057a23a85fd7d022daf49aa11b1254d47",
+      "sha256_after": "c95c3a84123d54ff2ad0a49f8eacc65057a23a85fd7d022daf49aa11b1254d47"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_wp3300_00_body_acot_69cde3_occlusion",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_wp3300_00_body_acot_69cde3_occlusion.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_wp3300_00_body_acot_69cde3_occlusion.T_wp3300_00_body_acot_69cde3_occlusion",
+      "sha256_before": "8a0b801c856f907c3cc07e8af2c2d42b5faa28cb9d1bd5c7be11a618a91452aa",
+      "sha256_after": "8a0b801c856f907c3cc07e8af2c2d42b5faa28cb9d1bd5c7be11a618a91452aa"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_wp3300_00_body_albd_b056d4",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_wp3300_00_body_albd_b056d4.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_wp3300_00_body_albd_b056d4.T_wp3300_00_body_albd_b056d4",
+      "sha256_before": "2b99c340ccb96b4c2c687fcb559d89030012d37d2f4271938e94d5ae23f80695",
+      "sha256_after": "2b99c340ccb96b4c2c687fcb559d89030012d37d2f4271938e94d5ae23f80695"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_wp3300_00_body_albd_b056d4_metallic",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_wp3300_00_body_albd_b056d4_metallic.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_wp3300_00_body_albd_b056d4_metallic.T_wp3300_00_body_albd_b056d4_metallic",
+      "sha256_before": "422fe1d68d3627dcb37d5f2308ad8fea592b715cb8197f18d5ec9ade8e801340",
+      "sha256_after": "422fe1d68d3627dcb37d5f2308ad8fea592b715cb8197f18d5ec9ade8e801340"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_wp3300_00_body_nrmr_d44310_normal",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_wp3300_00_body_nrmr_d44310_normal.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_wp3300_00_body_nrmr_d44310_normal.T_wp3300_00_body_nrmr_d44310_normal",
+      "sha256_before": "787a0f611db667ff98517c30efff989ebf9cff10a874fcddf9bd8370970df7e7",
+      "sha256_after": "787a0f611db667ff98517c30efff989ebf9cff10a874fcddf9bd8370970df7e7"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_wp3300_00_body_nrmr_d44310_roughness",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_wp3300_00_body_nrmr_d44310_roughness.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_wp3300_00_body_nrmr_d44310_roughness.T_wp3300_00_body_nrmr_d44310_roughness",
+      "sha256_before": "4251adc0a0546cdf777d9efd943cbff2032eb4575b774049d1a48a5f391f8418",
+      "sha256_after": "4251adc0a0546cdf777d9efd943cbff2032eb4575b774049d1a48a5f391f8418"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_wp3300_00_lever_acot_7319d8_occlusion",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_wp3300_00_lever_acot_7319d8_occlusion.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_wp3300_00_lever_acot_7319d8_occlusion.T_wp3300_00_lever_acot_7319d8_occlusion",
+      "sha256_before": "2c0a970e27aabbf109c6d1aa219644e3d4838c307b0d9528f0f67fa6a4bc52c1",
+      "sha256_after": "2c0a970e27aabbf109c6d1aa219644e3d4838c307b0d9528f0f67fa6a4bc52c1"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_wp3300_00_lever_albd_882821",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_wp3300_00_lever_albd_882821.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_wp3300_00_lever_albd_882821.T_wp3300_00_lever_albd_882821",
+      "sha256_before": "ec906b8d6830ea679da5f85821af5d1c8029aa214255b3b8ec1562207d2e4619",
+      "sha256_after": "ec906b8d6830ea679da5f85821af5d1c8029aa214255b3b8ec1562207d2e4619"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_wp3300_00_lever_albd_882821_metallic",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_wp3300_00_lever_albd_882821_metallic.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_wp3300_00_lever_albd_882821_metallic.T_wp3300_00_lever_albd_882821_metallic",
+      "sha256_before": "5d017eda8021e01a964f94384af5ab9507212d82a3aea784b44a18e0588daa10",
+      "sha256_after": "5d017eda8021e01a964f94384af5ab9507212d82a3aea784b44a18e0588daa10"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_wp3300_00_lever_nrmr_bb9f3d_normal",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_wp3300_00_lever_nrmr_bb9f3d_normal.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_wp3300_00_lever_nrmr_bb9f3d_normal.T_wp3300_00_lever_nrmr_bb9f3d_normal",
+      "sha256_before": "3c9941e696d0990c623486ab41f6ece3df506704d5cccebee88d902485ecdd18",
+      "sha256_after": "3c9941e696d0990c623486ab41f6ece3df506704d5cccebee88d902485ecdd18"
+    },
+    {
+      "package": "/Game/Leon/Textures/Original/T_wp3300_00_lever_nrmr_bb9f3d_roughness",
+      "file": "E:\\RE9_Leon_UE5\\Content\\Leon\\Textures\\Original\\T_wp3300_00_lever_nrmr_bb9f3d_roughness.uasset",
+      "physical_file_exists": true,
+      "loaded": true,
+      "object_path": "/Game/Leon/Textures/Original/T_wp3300_00_lever_nrmr_bb9f3d_roughness.T_wp3300_00_lever_nrmr_bb9f3d_roughness",
+      "sha256_before": "8d759f2237406d071060dbaafeea8694f4e5e2065abd47660af9246a87d93442",
+      "sha256_after": "8d759f2237406d071060dbaafeea8694f4e5e2065abd47660af9246a87d93442"
+    }
+  ],
+  "hero_actors": [
+    "/Game/Leon/Preview/LeonVideoPreview.LeonVideoPreview:PersistentLevel.SkeletalMeshActor_1"
+  ],
+  "native_groom_actors": [
+    "/Game/Leon/Preview/LeonVideoPreview.LeonVideoPreview:PersistentLevel.GroomActor_0"
+  ],
+  "hero_mesh": "/Game/Leon/Mesh/SK_Leon_Preview.SK_Leon_Preview",
+  "hero_materials": [
+    {
+      "slot": "Face_Mat",
+      "material": "/Game/Leon/Preview/Materials/MI_LeonFace_Stage.MI_LeonFace_Stage"
+    },
+    {
+      "slot": "Teeth_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Teeth_Mat.MI_Leon_Teeth_Mat"
+    },
+    {
+      "slot": "Eyeball_L_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Eyeball_L_Mat.MI_Leon_Eyeball_L_Mat"
+    },
+    {
+      "slot": "EyeShell_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_EyeShell_Mat.MI_Leon_EyeShell_Mat"
+    },
+    {
+      "slot": "Eyeball_R_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Eyeball_R_Mat.MI_Leon_Eyeball_R_Mat"
+    },
+    {
+      "slot": "Beard_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Beard_Mat.MI_Leon_Beard_Mat"
+    },
+    {
+      "slot": "Eyebrow_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Eyebrow_Mat.MI_Leon_Eyebrow_Mat"
+    },
+    {
+      "slot": "Eyelash_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Eyelash_Mat.MI_Leon_Eyelash_Mat"
+    },
+    {
+      "slot": "Hair00_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Hair00_Mat.MI_Leon_Hair00_Mat"
+    },
+    {
+      "slot": "Hair01_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Hair01_Mat.MI_Leon_Hair01_Mat"
+    },
+    {
+      "slot": "Hair02_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Hair02_Mat.MI_Leon_Hair02_Mat"
+    },
+    {
+      "slot": "Set00_Inner_Metal_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Inner_Metal_Mat.MI_Leon_Set00_Inner_Metal_Mat"
+    },
+    {
+      "slot": "Set00_Inner_Cloth1_Mat",
+      "material": "/Game/Leon/Preview/Materials/MI_LeonStageCloth_Set00_Inner_Cloth1_Mat.MI_LeonStageCloth_Set00_Inner_Cloth1_Mat"
+    },
+    {
+      "slot": "Set00_Inner_Cloth3_Mat",
+      "material": "/Game/Leon/Preview/Materials/MI_LeonStageCloth_Set00_Inner_Cloth3_Mat.MI_LeonStageCloth_Set00_Inner_Cloth3_Mat"
+    },
+    {
+      "slot": "Set00_Inner_Cloth2_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Inner_Cloth2_Mat.MI_Leon_Set00_Inner_Cloth2_Mat"
+    },
+    {
+      "slot": "Set00_Inner_Stitch_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Inner_Stitch_Mat.MI_Leon_Set00_Inner_Stitch_Mat"
+    },
+    {
+      "slot": "Set00_Inner_Stitch2_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Inner_Stitch2_Mat.MI_Leon_Set00_Inner_Stitch2_Mat"
+    },
+    {
+      "slot": "Set00_TacticalVest_Cloth1_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_TacticalVest_Cloth1_Mat.MI_Leon_Set00_TacticalVest_Cloth1_Mat"
+    },
+    {
+      "slot": "Set00_TacticalVest_MagicTape_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_TacticalVest_MagicTape_Mat.MI_Leon_Set00_TacticalVest_MagicTape_Mat"
+    },
+    {
+      "slot": "Set00_TacticalVest_Plastic_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_TacticalVest_Plastic_Mat.MI_Leon_Set00_TacticalVest_Plastic_Mat"
+    },
+    {
+      "slot": "Set00_TacticalVest_Cloth2_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_TacticalVest_Cloth2_Mat.MI_Leon_Set00_TacticalVest_Cloth2_Mat"
+    },
+    {
+      "slot": "Set00_TacticalVest_Stitch_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_TacticalVest_Stitch_Mat.MI_Leon_Set00_TacticalVest_Stitch_Mat"
+    },
+    {
+      "slot": "Set00_BH_Carbon_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_BH_Carbon_Mat.MI_Leon_Set00_BH_Carbon_Mat"
+    },
+    {
+      "slot": "Set00_BH_MagicTape_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_BH_MagicTape_Mat.MI_Leon_Set00_BH_MagicTape_Mat"
+    },
+    {
+      "slot": "Set00_BH_Cloth_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_BH_Cloth_Mat.MI_Leon_Set00_BH_Cloth_Mat"
+    },
+    {
+      "slot": "Set00_RequiemBullet_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_RequiemBullet_Mat.MI_Leon_Set00_RequiemBullet_Mat"
+    },
+    {
+      "slot": "Set00_RequiemHolster_Body_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_RequiemHolster_Body_Mat.MI_Leon_Set00_RequiemHolster_Body_Mat"
+    },
+    {
+      "slot": "Set00_RequiemHolster_Metal_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_RequiemHolster_Metal_Mat.MI_Leon_Set00_RequiemHolster_Metal_Mat"
+    },
+    {
+      "slot": "ShoulderPad_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_ShoulderPad_Mat.MI_Leon_ShoulderPad_Mat"
+    },
+    {
+      "slot": "ShoulderKevlar_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_ShoulderKevlar_Mat.MI_Leon_ShoulderKevlar_Mat"
+    },
+    {
+      "slot": "Rivet_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Rivet_Mat.MI_Leon_Rivet_Mat"
+    },
+    {
+      "slot": "ElbowBackle_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_ElbowBackle_Mat.MI_Leon_ElbowBackle_Mat"
+    },
+    {
+      "slot": "ElbowBelt_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_ElbowBelt_Mat.MI_Leon_ElbowBelt_Mat"
+    },
+    {
+      "slot": "ElbowPat_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_ElbowPat_Mat.MI_Leon_ElbowPat_Mat"
+    },
+    {
+      "slot": "ElbowKevlar_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_ElbowKevlar_Mat.MI_Leon_ElbowKevlar_Mat"
+    },
+    {
+      "slot": "VelcroTape01_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_VelcroTape01_Mat.MI_Leon_VelcroTape01_Mat"
+    },
+    {
+      "slot": "VelcroTape00_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_VelcroTape00_Mat.MI_Leon_VelcroTape00_Mat"
+    },
+    {
+      "slot": "Set00_Jacket_Leather_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Jacket_Leather_Mat.MI_Leon_Set00_Jacket_Leather_Mat"
+    },
+    {
+      "slot": "Set00_Jacket_Metal_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Jacket_Metal_Mat.MI_Leon_Set00_Jacket_Metal_Mat"
+    },
+    {
+      "slot": "Set00_Jacket_Button_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Jacket_Button_Mat.MI_Leon_Set00_Jacket_Button_Mat"
+    },
+    {
+      "slot": "Set00_Jacket_Cloth_Mat",
+      "material": "/Game/Leon/Preview/Materials/MI_LeonStageCloth_Set00_Jacket_Cloth_Mat.MI_LeonStageCloth_Set00_Jacket_Cloth_Mat"
+    },
+    {
+      "slot": "Set00_Jacket_FurA_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Jacket_FurA_Mat.MI_Leon_Set00_Jacket_FurA_Mat"
+    },
+    {
+      "slot": "Set00_Jacket_Stitch_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Jacket_Stitch_Mat.MI_Leon_Set00_Jacket_Stitch_Mat"
+    },
+    {
+      "slot": "Set00_Jacket_FurB_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Jacket_FurB_Mat.MI_Leon_Set00_Jacket_FurB_Mat"
+    },
+    {
+      "slot": "Set00_Pants_Cloth_Mat",
+      "material": "/Game/Leon/Preview/Materials/MI_LeonStageCloth_Set00_Pants_Cloth_Mat.MI_LeonStageCloth_Set00_Pants_Cloth_Mat"
+    },
+    {
+      "slot": "Set00_Pants_RubberFabric_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Pants_RubberFabric_Mat.MI_Leon_Set00_Pants_RubberFabric_Mat"
+    },
+    {
+      "slot": "Set00_PantsStitch_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_PantsStitch_Mat.MI_Leon_Set00_PantsStitch_Mat"
+    },
+    {
+      "slot": "Set00_InnerBelt_MagicTape_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_InnerBelt_MagicTape_Mat.MI_Leon_Set00_InnerBelt_MagicTape_Mat"
+    },
+    {
+      "slot": "Set00_InnerBelt_Cloth_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_InnerBelt_Cloth_Mat.MI_Leon_Set00_InnerBelt_Cloth_Mat"
+    },
+    {
+      "slot": "Set00_InnerBelt_Plastic_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_InnerBelt_Plastic_Mat.MI_Leon_Set00_InnerBelt_Plastic_Mat"
+    },
+    {
+      "slot": "Set00_Shoes_Cloth_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Shoes_Cloth_Mat.MI_Leon_Set00_Shoes_Cloth_Mat"
+    },
+    {
+      "slot": "Set00_Shoes_Plastic_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Shoes_Plastic_Mat.MI_Leon_Set00_Shoes_Plastic_Mat"
+    },
+    {
+      "slot": "Set00_Shoes_Rubber_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Shoes_Rubber_Mat.MI_Leon_Set00_Shoes_Rubber_Mat"
+    },
+    {
+      "slot": "Set00_Shoes_lace_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Shoes_lace_Mat.MI_Leon_Set00_Shoes_lace_Mat"
+    },
+    {
+      "slot": "Set00_Shoes_Mesh_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Shoes_Mesh_Mat.MI_Leon_Set00_Shoes_Mesh_Mat"
+    },
+    {
+      "slot": "Set00_Belt_Metal_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Metal_Mat.MI_Leon_Set00_Belt_Metal_Mat"
+    },
+    {
+      "slot": "Set00_Belt_Cloth1_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Cloth1_Mat.MI_Leon_Set00_Belt_Cloth1_Mat"
+    },
+    {
+      "slot": "Set00_Belt_Plastic_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Plastic_Mat.MI_Leon_Set00_Belt_Plastic_Mat"
+    },
+    {
+      "slot": "Set00_Belt_Carbon_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Carbon_Mat.MI_Leon_Set00_Belt_Carbon_Mat"
+    },
+    {
+      "slot": "Set00_Belt_Cloth4_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Cloth4_Mat.MI_Leon_Set00_Belt_Cloth4_Mat"
+    },
+    {
+      "slot": "Set00_Belt_Rubber_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Rubber_Mat.MI_Leon_Set00_Belt_Rubber_Mat"
+    },
+    {
+      "slot": "Set00_Belt_Cloth3_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Cloth3_Mat.MI_Leon_Set00_Belt_Cloth3_Mat"
+    },
+    {
+      "slot": "Set00_Belt_Cloth2_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Cloth2_Mat.MI_Leon_Set00_Belt_Cloth2_Mat"
+    },
+    {
+      "slot": "Set00_Belt_Stitch_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Belt_Stitch_Mat.MI_Leon_Set00_Belt_Stitch_Mat"
+    },
+    {
+      "slot": "Light_Plastic_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Light_Plastic_Mat.MI_Leon_Light_Plastic_Mat"
+    },
+    {
+      "slot": "Light_Reflector_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Light_Reflector_Mat.MI_Leon_Light_Reflector_Mat"
+    },
+    {
+      "slot": "Light_Glass_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Light_Glass_Mat.MI_Leon_Light_Glass_Mat"
+    },
+    {
+      "slot": "Light_Metal_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Light_Metal_Mat.MI_Leon_Light_Metal_Mat"
+    },
+    {
+      "slot": "PushDaggerKnifeSheath_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_PushDaggerKnifeSheath_Mat.MI_Leon_PushDaggerKnifeSheath_Mat"
+    },
+    {
+      "slot": "GrenadePlastic_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_GrenadePlastic_Mat.MI_Leon_GrenadePlastic_Mat"
+    },
+    {
+      "slot": "GrenadeLever_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_GrenadeLever_Mat.MI_Leon_GrenadeLever_Mat"
+    },
+    {
+      "slot": "GrenadeBody_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_GrenadeBody_Mat.MI_Leon_GrenadeBody_Mat"
+    },
+    {
+      "slot": "PushDaggerKnife_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_PushDaggerKnife_Mat.MI_Leon_PushDaggerKnife_Mat"
+    },
+    {
+      "slot": "Set00_Arm_R_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Arm_R_Mat.MI_Leon_Set00_Arm_R_Mat"
+    },
+    {
+      "slot": "Set01_Glove_Leather_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set01_Glove_Leather_Mat.MI_Leon_Set01_Glove_Leather_Mat"
+    },
+    {
+      "slot": "Set01_Glove_Mesh_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set01_Glove_Mesh_Mat.MI_Leon_Set01_Glove_Mesh_Mat"
+    },
+    {
+      "slot": "Set01_Glove_Cloth_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set01_Glove_Cloth_Mat.MI_Leon_Set01_Glove_Cloth_Mat"
+    },
+    {
+      "slot": "Set01_Glove_Suede_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set01_Glove_Suede_Mat.MI_Leon_Set01_Glove_Suede_Mat"
+    },
+    {
+      "slot": "Set00_Arm_L_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Arm_L_Mat.MI_Leon_Set00_Arm_L_Mat"
+    },
+    {
+      "slot": "Set00_Glove_Leather_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Glove_Leather_Mat.MI_Leon_Set00_Glove_Leather_Mat"
+    },
+    {
+      "slot": "Set00_Glove_Mesh_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Glove_Mesh_Mat.MI_Leon_Set00_Glove_Mesh_Mat"
+    },
+    {
+      "slot": "Set00_Glove_Cloth_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Glove_Cloth_Mat.MI_Leon_Set00_Glove_Cloth_Mat"
+    },
+    {
+      "slot": "Set00_Glove_Suede_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_Set00_Glove_Suede_Mat.MI_Leon_Set00_Glove_Suede_Mat"
+    },
+    {
+      "slot": "WatchBody_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_WatchBody_Mat.MI_Leon_WatchBody_Mat"
+    },
+    {
+      "slot": "WatchEmissive_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_WatchEmissive_Mat.MI_Leon_WatchEmissive_Mat"
+    },
+    {
+      "slot": "WatchDial_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_WatchDial_Mat.MI_Leon_WatchDial_Mat"
+    },
+    {
+      "slot": "WatchBeltStitch_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_WatchBeltStitch_Mat.MI_Leon_WatchBeltStitch_Mat"
+    },
+    {
+      "slot": "WatchBelt00_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_WatchBelt00_Mat.MI_Leon_WatchBelt00_Mat"
+    },
+    {
+      "slot": "WatchBelt01_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_WatchBelt01_Mat.MI_Leon_WatchBelt01_Mat"
+    },
+    {
+      "slot": "WatchBeltMetal_Mat",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_WatchBeltMetal_Mat.MI_Leon_WatchBeltMetal_Mat"
+    },
+    {
+      "slot": "WatchGlass_geo",
+      "material": "/Game/Leon/Materials/Original/MI_Leon_WatchGlass_geo.MI_Leon_WatchGlass_geo"
+    }
+  ],
+  "groom_asset": "/Game/Leon/Groom/Leon_Hair_Native.Leon_Hair_Native",
+  "groom_binding": "/Game/Leon/Groom/GB_Leon_Native_Hair.GB_Leon_Native_Hair",
+  "groom_materials": [
+    "/Game/Leon/Groom/MI_Leon_NativeHair.MI_Leon_NativeHair"
+  ],
+  "shader_files": [
+    {
+      "path": "E:\\RE9_Leon_UE5\\Shaders\\LeonREHairGuideWrite.usf",
+      "exists": true
+    },
+    {
+      "path": "E:\\RE9_Leon_UE5\\Plugins\\LeonPreviewTools\\Shaders\\Private\\LeonREHairGuide.ush",
+      "exists": true
+    }
+  ]
+}

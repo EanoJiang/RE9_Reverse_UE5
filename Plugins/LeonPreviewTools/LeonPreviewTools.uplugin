@@ -1,0 +1,18 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "Leon Preview Tools",
+  "Description": "Live studio, animation and native Groom controls for the Leon character preview.",
+  "Category": "Editor",
+  "EnabledByDefault": false,
+  "CanContainContent": false,
+  "Modules": [
+    {"Name": "LeonPreviewRuntime", "Type": "Runtime", "LoadingPhase": "PostConfigInit"},
+    {"Name": "LeonPreviewTools", "Type": "Editor", "LoadingPhase": "PostEngineInit"}
+  ],
+  "Plugins": [
+    {"Name": "HairStrands", "Enabled": true},
+    {"Name": "DeformerGraph", "Enabled": true}
+  ]
+}

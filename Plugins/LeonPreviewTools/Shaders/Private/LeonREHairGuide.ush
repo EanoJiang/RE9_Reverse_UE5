@@ -1,0 +1,15 @@
+#include "/Plugin/ComputeFramework/Private/ComputeKernelCommon.ush"
+
+StructuredBuffer<float4> {DataInterfaceName}_GuidePoints;
+uint {DataInterfaceName}_GuidePointCount;
+
+uint ReadGuidePointCount_{DataInterfaceName}()
+{
+	return {DataInterfaceName}_GuidePointCount;
+}
+
+float3 ReadGuidePoint_{DataInterfaceName}(uint PointIndex)
+{
+	const uint Count = max({DataInterfaceName}_GuidePointCount, 1u);
+	return {DataInterfaceName}_GuidePoints[min(PointIndex, Count - 1u)].xyz;
+}

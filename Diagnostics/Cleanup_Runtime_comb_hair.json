@@ -1,0 +1,182 @@
+{
+	"animation_selection": "comb",
+	"native_display_pose_source": "comb_hair_asset_frame0",
+	"native_display_asset": "/Game/Leon/Animations/FullRig/ch0100_emote_233d0854/A_ch0100_Emote_0710_Idle_Relax_hair_id710.A_ch0100_Emote_0710_Idle_Relax_hair_id710",
+	"native_display_time_seconds": 0,
+	"native_display_equals_bind_pose": false,
+	"native_display_original_gallery_animation_recovered": false,
+	"native_display_pose_note": "Relax hair emote frame 0, chosen as a paused preview pose; not a recovered original gallery animation.",
+	"selected_pose_source": "native_animation_asset",
+	"animation_asset": "/Game/Leon/Animations/FullRig/ch0100_emote_233d0854/A_ch0100_Emote_0710_Idle_Relax_hair_id710.A_ch0100_Emote_0710_Idle_Relax_hair_id710",
+	"playing": true,
+	"looping": true,
+	"animation_time": 0,
+	"animation_length": 3.5999999046325684,
+	"playback_speed": 1,
+	"light_rotation": -131,
+	"light_rotation_origin_offset_degrees": 131,
+	"light_rotation_delta_from_saved_stage_degrees": 0,
+	"lighting_preset": "Split",
+	"lighting_preset_provenance": "ue5_split_reference_approximation",
+	"native_re9_lighting_exact": false,
+	"hair_visible": true,
+	"hair_simulation": true,
+	"hair_simulation_requested": true,
+	"hair_native_niagara_simulation": false,
+	"hair_view_mode": 0,
+	"hair_guides": false,
+	"groom_width_cm": 0.019999999552965164,
+	"camera_yaw": 90,
+	"camera_pitch": 0,
+	"camera_distance_cm": 300,
+	"model_yaw": 0,
+	"model_pitch": 0,
+	"camera_reset_distance_cm": 300,
+	"camera_variant_stage_target_offset_x_cm": 0,
+	"camera_target_base_height_cm": 142,
+	"camera_projection_provenance": "explicit_maintain_y_fov_from_35_degree_horizontal_at_16_9",
+	"camera_legacy_maintain_y_fov": false,
+	"camera_fov_degrees": 35,
+	"camera_reference_aspect_ratio": 1.7777777910232544,
+	"camera_axis_constraint_override": true,
+	"camera_constrain_aspect_ratio": false,
+	"camera_aspect_ratio_axis_constraint": "MaintainYFOV",
+	"camera_vertical_fov_degrees": 20.114292144775391,
+	"camera_target_world_cm": [
+		-3.3306690738754696e-14,
+		2.2737367544323206e-13,
+		142
+	],
+	"hdr_paper_white_nits": 120,
+	"hdr_output_requested": false,
+	"hdr_output_active": false,
+	"hdr_paper_white_cvar_nits": 120,
+	"projection_interpolation_supported": true,
+	"body_physics_supported": true,
+	"body_physics": false,
+	"projection_interpolation": true,
+	"re_hair_pipeline_ready": true,
+	"re_hair_chain_energy": 127.96512603759766,
+	"re_hair_chain_points": 5,
+	"re_hair_dense_propagation": true,
+	"re_hair_dense_propagation_path": "Optimus full-curve DeformerBuffer UAV -> GroomManager guide interpolation -> dense strands",
+	"re_hair_optimus_asset_saved": true,
+	"re_hair_optimus_runtime_attached": true,
+	"re_hair_solver_ownership": "Optimus full-curve Catmull-Rom guide deformation -> GroomManager guide-to-dense interpolation",
+	"re_hair_guide_solver_owns_simulation": true,
+	"re_hair_dense_positions_direct_write": false,
+	"re_hair_dense_direction_propagated": true,
+	"re_hair_transport_velocity_world_cm_s": [
+		56.099171598868992,
+		43.521293256084789,
+		-3.261314819017159
+	],
+	"re_hair_dense_air_velocity_local_cm_s": [
+		103.66857912699038,
+		-8.7449934734409762,
+		51.672817627954196
+	],
+	"re_hair_tip_direction_world": [
+		-0.030168321038525674,
+		-0.31091859215238443,
+		-0.94995763140241962
+	],
+	"re_hair_pipeline_provenance": "RE9 STRD/SBD + chain2 reconstruction: damped Head_0 chain and four-point Catmull-Rom projection; UE HairStrands raster/BSDF remains active.",
+	"native_re9_renderer_supported": false,
+	"native_re9_renderer": false,
+	"variant_cloth_simulation_active": false,
+	"variant_cloth_station_count": 0,
+	"variant_cloth_bone_count": 0,
+	"variant_cloth_simulation_path": "PoseableMesh copy of imported animation pose + bounded RE-style secondary-bone spring/lag",
+	"stage_ui_added": true,
+	"animation_registry_count": 3,
+	"animation_registry_initialized": true,
+	"preview_mesh": "/Game/Leon/Mesh/SK_Leon_Preview.SK_Leon_Preview",
+	"preview_bones": 1218,
+	"preview_morphs": 100,
+	"predicted_mesh_lod": 0,
+	"paused_anims": false,
+	"force_ref_pose": false,
+	"hair_card_sections": [
+		{
+			"material_index": 8,
+			"lod": 0,
+			"shown": false
+		},
+		{
+			"material_index": 9,
+			"lod": 0,
+			"shown": false
+		},
+		{
+			"material_index": 10,
+			"lod": 0,
+			"shown": false
+		}
+	],
+	"all_hair_card_sections_hidden": true,
+	"head_world_cm": "X=-23.304 Y=44.429 Z=170.029",
+	"groom_asset": "/Game/Leon/Groom/Leon_Hair_Native.Leon_Hair_Native",
+	"groom_binding": "/Game/Leon/Groom/GB_Leon_Native_Hair.GB_Leon_Native_Hair",
+	"groom_physics_asset": "/Game/Leon/Groom/PA_Leon_NativeGroomHead.PA_Leon_NativeGroomHead",
+	"groom_parent": "/Game/Leon/Preview/LeonVideoPreview.LeonVideoPreview:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0",
+	"groom_scalars":
+	{
+		"DryRoughness": 0.41999998688697815,
+		"WetRoughness": 0.05000000074505806,
+		"WetAmount": 0,
+		"Specular": 0.40000000596046448,
+		"Scatter": 0.34999999403953552,
+		"Backlit": 1,
+		"AmbientOcclusion": 0.60000002384185791
+	},
+	"groom_width_groups": [
+		{
+			"width_cm": 0.019999999552965164,
+			"width_override": true
+		}
+	],
+	"groom_render_curves": 20214,
+	"groom_guide_curves": 2021,
+	"ue_native_global_interpolation": true,
+	"lights": [
+		{
+			"name": "Key_Split",
+			"rotation": "P=-20.506361 Y=-54.688787 R=-0.000000",
+			"intensity": 1.0499999523162842,
+			"use_temperature": false,
+			"color_linear_rgb": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"name": "Fill_Softbox",
+			"rotation": "P=-7.019473 Y=-50.710593 R=-0.000000",
+			"intensity": 6.75,
+			"use_temperature": false,
+			"color_linear_rgb": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"name": "Rim_Hair",
+			"rotation": "P=-25.365622 Y=118.300756 R=0.000000",
+			"intensity": 5.1999998092651367,
+			"use_temperature": false,
+			"color_linear_rgb": [
+				1,
+				1,
+				1
+			]
+		}
+	],
+	"generated": "2026-10-13T05:15:43.859Z",
+	"label": "animation_comb",
+	"world": "/Game/Leon/Preview/LeonVideoPreview.LeonVideoPreview",
+	"hero_actor": "/Game/Leon/Preview/LeonVideoPreview.LeonVideoPreview:PersistentLevel.SkeletalMeshActor_1",
+	"groom_component": "/Game/Leon/Preview/LeonVideoPreview.LeonVideoPreview:PersistentLevel.GroomActor_0.GroomComponent0"
+}

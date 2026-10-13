@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "project": "E:\\RE9_Leon_UE5",
+  "root_map": "/Game/Leon/Preview/LeonVideoPreview",
+  "remaining_maps": [
+    "/Game/Leon/Preview/LeonVideoPreview"
+  ],
+  "retained_package_count": 243,
+  "archived_package_count": 34644,
+  "archived_map_count": 5,
+  "archived_content_file_count": 34723,
+  "content_bytes_before": 32283574988,
+  "content_bytes_after": 473484927,
+  "active_project_bytes_at_completion": 646026811,
+  "archive": "E:\\RE9_Leon_UE5_CleanupArchive_20261013_131111",
+  "archive_preserves_originals": true,
+  "disk_space_released": false,
+  "retained_asset_hashes_match_before_cleanup": true,
+  "fresh_editor_verification": {
+    "success": true,
+    "checks_passed": 23,
+    "packages_loaded": 243
+  },
+  "gpu_preview": {
+    "opened": true,
+    "visual_match_to_requested_single_character_level": true,
+    "dx12_sm6": true,
+    "preset_button_checks": {
+      "idle": {
+        "selection": "idle",
+        "asset": "/Game/Leon/Animations/FullRig/ch0100_generald_385e2faa/A_ch0100_GeneralD_0000_Idle_caution_id0.A_ch0100_GeneralD_0000_Idle_caution_id0",
+        "playing": true,
+        "world": "/Game/Leon/Preview/LeonVideoPreview.LeonVideoPreview",
+        "groom_pipeline_ready": true,
+        "optimus_attached": true,
+        "animation_registry_count": 3
+      },
+      "walk": {
+        "selection": "walk",
+        "asset": "/Game/Leon/Animations/FullRig/ch0100_generald_385e2faa/A_ch0100_GeneralD_2270_walk_Loop_id2270.A_ch0100_GeneralD_2270_walk_Loop_id2270",
+        "playing": true,
+        "world": "/Game/Leon/Preview/LeonVideoPreview.LeonVideoPreview",
+        "groom_pipeline_ready": true,
+        "optimus_attached": true,
+        "animation_registry_count": 3
+      },
+      "comb_hair": {
+        "selection": "comb",
+        "asset": "/Game/Leon/Animations/FullRig/ch0100_emote_233d0854/A_ch0100_Emote_0710_Idle_Relax_hair_id710.A_ch0100_Emote_0710_Idle_Relax_hair_id710",
+        "playing": true,
+        "world": "/Game/Leon/Preview/LeonVideoPreview.LeonVideoPreview",
+        "groom_pipeline_ready": true,
+        "optimus_attached": true,
+        "animation_registry_count": 3
+      }
+    },
+    "final_selection": "native",
+    "groom_optimus_attached": true
+  },
+  "startup_config_unified": true,
+  "asset_or_map_resaves_performed": false,
+  "cleanup_scope": "UE project only; original game installation and reference video unchanged.",
+  "renderer_note": "Existing custom guide simulation/Optimus pipeline preserved; UE HairStrands raster/BSDF remains active."
+}

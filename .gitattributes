@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+E:/UE_GameDev/Unreal[[:space:]]Projects/RE_Reverse_UE5/Content/Leon/Mesh/SK_Leon_Preview.uasset filter=lfs diff=lfs merge=lfs -text
+SK_Leon_Preview.uasset filter=lfs diff=lfs merge=lfs -text
